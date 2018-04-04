@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Snake</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+        <script>
+//            https://codepen.io/ganmahmud/pen/RaoKZa
+            window.onload=function() {
+                canv=document.getElementById("block");
+                ctx=canv.getContext("2d");
+                document.addEventListener("keydown",keyPush);
+                setInterval(game,100);
+            }
+            px=py=10;
+            gs=tc=20;
+            ax=ay=15;
+            xv=yv=0;
+            trail=[];
+            tail = 5;
+            function game() {
+                px+=xv;
+                py+=yv;
+                if(px<0) {
+                    px= tc-1;
+                }
+                if(px>tc-1) {
+                    px= 0;
+                }
+                if(py<0) {
+                    py= tc-1;
+                }
+                if(py>tc-1) {
+                    py= 0;
+                }
+                ctx.fillStyle="black";
+                ctx.fillRect(0,0,canv.width,canv.height);
+
+                ctx.fillStyle="lime";
+                for(var i=0;i<trail.length;i++) {
+                    ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
+                    if(trail[i].x==px && trail[i].y==py) {
+                        tail = 5;
+                    }
+                }
+                trail.push({x:px,y:py});
+                while(trail.length>tail) {
+                trail.shift();
+                }
+
+                if(ax==px && ay==py) {
+                    tail++;
+                    ax=Math.floor(Math.random()*tc);
+                    ay=Math.floor(Math.random()*tc);
+                }
+                ctx.fillStyle="red";
+                ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
+            }
+            function keyPush(evt) {
+                switch(evt.keyCode) {
+                    case 37:
+                        xv=-1;yv=0;
+                        break;
+                    case 38:
+                        xv=0;yv=-1;
+                        break;
+                    case 39:
+                        xv=1;yv=0;
+                        break;
+                    case 40:
+                        xv=0;yv=1;
+                        break;
+                }
+            }
+
+            function swipedetect(el, callback){
+  
+                var touchsurface = el,
+                swipedir,
+                startX,
+                startY,
+                distX,
+                distY,
+                threshold = 150, //required min distance traveled to be considered swipe
+                restraint = 100, // maximum distance allowed at the same time in perpendicular direction
+                allowedTime = 300, // maximum time allowed to travel that distance
+                elapsedTime,
+                startTime,
+                handleswipe = callback || function(swipedir){}
+              
+                touchsurface.addEventListener('touchstart', function(e){
+                    var touchobj = e.changedTouches[0]
+                    swipedir = 'none'
+                    dist = 0
+                    startX = touchobj.pageX
+                    startY = touchobj.pageY
+                    startTime = new Date().getTime() // record time when finger first makes contact with surface
+                    e.preventDefault()
+                }, false)
+              
+                touchsurface.addEventListener('touchmove', function(e){
+                    e.preventDefault() // prevent scrolling when inside DIV
+                }, false)
+              
+                touchsurface.addEventListener('touchend', function(e){
+                    var touchobj = e.changedTouches[0]
+                    distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
+                    distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
+                    elapsedTime = new Date().getTime() - startTime // get time elapsed
+                    if (elapsedTime <= allowedTime){ // first condition for awipe met
+                        if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint){ // 2nd condition for horizontal swipe met
+                            swipedir = (distX < 0)? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
+                        }
+                        else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
+                            swipedir = (distY < 0)? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
+                        }
+                    }
+                    handleswipe(swipedir)
+                    e.preventDefault()
+                }, false)
+            }
+              
+            //USAGE:
+
+            var el = document.getElementById('swipezone');
+            swipedetect(el, function(swipedir){
+                // swipedir contains either "none", "left", "right", "top", or "down"
+                el.innerHTML = 'Swiped <span style="color:yellow">' + swipedir +'</span>';
+            });
+        </script>
+    </head>
+    <body>
+        <canvas id="block" width="400" height="400"></canvas>
+        <div id="swipezone">Swipe me</div>
+    </body>
+</html>

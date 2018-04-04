@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+	background-color: #FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0px;
+	margin-top: 0px;
+}
+.header {
+	width: 100%;
+	background-color: #5D5E5D;
+	border-bottom: 1px solid #353635;
+}
+.container {
+	width: 100%;
+	padding: 0px;
+	background-color: #fff;
+}
+.titolo {
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 4px;
+	text-align: center;
+	line-height: 2em;
+	font-size: 30px;
+	width: 100%;
+	background-color: #5D5E5D;
+}
+.colonne {
+	display: inline-block;
+	background-color: #6DC7D0;
+}
+.colonna {
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}

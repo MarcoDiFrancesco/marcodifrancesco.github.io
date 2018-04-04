@@ -1,0 +1,17 @@
+body {
+	background: #E4E4E4;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: 500;
+}
+
+div {
+	font-size: 25px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: 400;
+	margin: 10;
+}
