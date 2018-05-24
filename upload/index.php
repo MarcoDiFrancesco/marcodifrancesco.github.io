@@ -30,6 +30,9 @@
 						echo $file;
 						echo "</td>";
 						echo "<td>";
+						echo date ("F d Y H:i:s.", filemtime($file));
+						echo "</td>";
+						echo "<td>";
 						echo "<a href='".$file."' download='".$file."'>Download</a>";
 						echo "</td>";
 						echo "</tr>";
