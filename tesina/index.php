@@ -1,15 +1,11 @@
-<?php include('check.php'); ?>
-<?php include('insert.php'); ?>
-
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<title>Tesina Di Francesco</title>
-	<link href="style.css" type="text/css" rel="stylesheet">
-	<link href="switch.css" type="text/css" rel="stylesheet">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -17,8 +13,8 @@
 
 		gtag('config', 'UA-115310552-1');
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+	<link href="style.css" type="text/css" rel="stylesheet">
+
 	<script>
 		// Richiamo insert.php per l'inserimento del pin a 0 o 1 nel database
 		$( document ).ready( function () {
@@ -76,7 +72,7 @@
 				<input type="checkbox" name="state" id="1" value="1" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-		
+
 
 		</div>
 		<div>LED 2
@@ -84,7 +80,7 @@
 				<input type="checkbox" name="state" id="2" value="2" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-		
+
 
 		</div>
 		<div>LED 3
@@ -92,7 +88,7 @@
 				<input type="checkbox" name="state" id="3" value="3" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-		
+
 
 		</div>
 		<div>LED 4
@@ -106,7 +102,7 @@
 				<input type="checkbox" name="state" id="5" value="5" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-		
+
 
 		</div>
 		<div>LED 6
@@ -114,7 +110,7 @@
 				<input type="checkbox" name="state" id="6" value="6" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-		
+
 
 		</div>
 		<h3 id="result">Clicca per aggiornare un led... </h3>
