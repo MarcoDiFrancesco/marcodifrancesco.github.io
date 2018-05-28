@@ -21,7 +21,7 @@
     		<form>
     			<input type="text" id="nomeDaRicercare" name="nomeDaRicercare" autocomplete="off" onkeyup="searchInput(this.value)">
         	<div id="searchOutput"></div>
-    		</form>	
+    		</form>
         </div>
         <div class="box">
           <h1>Ricerca avanzata</h1>
@@ -35,7 +35,7 @@
         		</p>
             <input type="text" value="Di Francesco" name="nomeDaRicercare">
             <input type="submit" value="Cerca">
-          </form> 
+          </form>
         </div>
         <div class="box">
             <h1>Eliminazione account</h1>
@@ -43,7 +43,7 @@
             <form method="post" action="php/deleteRecords.php">
                 <input type="text" id="nomeDaEliminare" value="Di Francesco" name="nomeDaEliminare">
                 <input type="submit" value="Elimina">
-            </form> 
+            </form>
         </div>
 	</body>
 </html>

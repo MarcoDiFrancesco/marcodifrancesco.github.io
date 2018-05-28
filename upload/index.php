@@ -24,19 +24,19 @@
 			<h1>Uploaded files</h1>
 			<table>
 				<?php
-					foreach ((glob('uploads/*')) as $file) {
-						echo "<tr>";
-						echo "<td style='padding-right:10px;'>";
-						echo $file;
-						echo "</td>";
-						echo "<td>";
-						echo date ("d F Y H:i:s", filemtime($file));
-						echo "</td>";
-						echo "<td>";
-						echo "<a href='".$file."' download='".$file."'>Download</a>";
-						echo "</td>";
-						echo "</tr>";
-					}
+				foreach ((glob('uploads/*')) as $file) {
+					echo "<tr>";
+					echo "<td style='padding-right:10px;'>";
+					echo $file;
+					echo "</td>";
+					echo "<td>";
+					echo date ("d F Y H:i:s", filemtime($file));
+					echo "</td>";
+					echo "<td>";
+					echo "<a href='".$file."' download='".$file."'>Download</a>";
+					echo "</td>";
+					echo "</tr>";
+				}
 				?>
 			</table>
 		</div>

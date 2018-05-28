@@ -1,12 +1,12 @@
 <?php
 
-require "connect.php";
+require "../../php/connect.php";
 
 // ricerca degli utenti con un certo cognome
 $sql = "SELECT cognome FROM phptest.utenti";
 $result = mysqli_query($connect, $sql);
 
-// mostra in tabella tutti i risultati 
+// mostra in tabella tutti i risultati
 if (mysqli_num_rows($result) > 0) {
   $a = array();
   $nElements = 0;
@@ -34,4 +34,3 @@ if (strlen($q) > 0){
 
 echo $risposta;
 ?>
-

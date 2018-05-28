@@ -1,11 +1,11 @@
 <?php
-require "connect.php";
+require "../../php/connect.php";
 
 $queryAllData = "SELECT ruolo,nome,cognome,datanascita,sesso,indirizzo,email,username,password FROM phptest.utenti";
 $result = mysqli_query($connect, $queryAllData);
 
 if (mysqli_num_rows($result) > 0) {
-	
+
 	echo "<table>";
   while($row = mysqli_fetch_assoc($result)) {
 		echo "<tr>";
@@ -19,7 +19,7 @@ if (mysqli_num_rows($result) > 0) {
 		" <td> Username: " . $row["username"] . "</td>".
 		"</tr>";
 	}
-	echo "</table>";	
+	echo "</table>";
 } else { // in caso non ci siano records mostra il messaggio
   echo "Non ci sono persone all'interno della tabella";
 }

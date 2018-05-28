@@ -1,5 +1,5 @@
 <?php
-require "connect.php";
+require "../../php/connect.php";
 
 $nomeDaEliminare = $_POST['nomeDaEliminare'];
 
@@ -7,7 +7,7 @@ $nomeDaEliminare = $_POST['nomeDaEliminare'];
 $sql = "SELECT id,ruolo,nome,cognome,datanascita,sesso,indirizzo,email,username,password FROM phptest.utenti WHERE utenti.cognome LIKE '".$nomeDaEliminare."%'";
 $result = mysqli_query($connect, $sql);
 
-// mostra in tabella tutti i risultati 
+// mostra in tabella tutti i risultati
 if (mysqli_num_rows($result) > 0) {
 	echo "<style>
 	table,tr,td{
@@ -15,7 +15,7 @@ if (mysqli_num_rows($result) > 0) {
 		border-collapse:collapse
 	}
 	</style>
-	
+
 	<form method='post' action='eliminaDefinitivamente.php'>
 	<table>";
   while($row = mysqli_fetch_assoc($result)) {
@@ -32,7 +32,7 @@ if (mysqli_num_rows($result) > 0) {
 		echo "</tr>";
 	}
 	echo "</table>";
-	echo "<input type='submit' id='submit' value='Elimina definitivamente'>";	
+	echo "<input type='submit' id='submit' value='Elimina definitivamente'>";
 	echo "</form>";
 } else { // in caso non ci siano records mostra il messaggio
   echo "Non ci sono persone con questo cognome all'interno della tabella";

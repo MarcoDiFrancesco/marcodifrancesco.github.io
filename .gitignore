@@ -1,3 +1,2 @@
-*connect.php
 upload/uploads/*
 !upload/uploads/test.txt

@@ -1,5 +1,5 @@
 <?php
-require "connect.php";
+require "../../php/connect.php";
 
 $nomeDaRicercare = $_POST['nomeDaRicercare'];
 $typeSearch = $_POST['typeSearch'];
@@ -13,7 +13,7 @@ if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
 		echo "<tr>";
 		echo "<td>Ruolo: " . $row["ruolo"]. "</td>".
-		" <td> Nome: " . $row["nome"]. "</td>".		
+		" <td> Nome: " . $row["nome"]. "</td>".
 		" <td> Cognome: " . $row["cognome"]. "</td>".
 		" <td> Data di nascita: " . $row["datanascita"]. "</td>".
 		" <td> Sesso: " . $row["sesso"]. "</td>".
@@ -22,7 +22,7 @@ if (mysqli_num_rows($result) > 0) {
 		" <td> Username: " . $row["username"] . "</td>";
 		echo "</tr>";
 	}
-	echo "</table>";	
+	echo "</table>";
 } else { // in caso non ci siano records mostra il messaggio
     echo "Non ci sono persone con questo cognome all'interno della tabella";
 }

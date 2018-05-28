@@ -3,20 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Tesina Di Francesco</title>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-115310552-1');
-	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="style.css" type="text/css" rel="stylesheet">
-
 	<script>
-		// Richiamo insert.php per l'inserimento del pin a 0 o 1 nel database
+		// when checkbox is clicked change record in database
 		$(document).ready( function () {
 			$('input[type="checkbox"]').change( function () {
 				var ledNumber = $( this ).val();
@@ -40,7 +30,7 @@
 		} );
 	</script>
 	<script>
-	/*	window.onload = */
+	// check in onload if the led is on or off
 	$(document).ready(function(){
 		$('[onload]').each(function updateLed() {
 			var ledNumber = $(this).val();
@@ -62,7 +52,6 @@
 	} );
 	</script>
 </head>
-
 <body>
 	<h1>Controllo casa domotica update</h1>
 	<form>
