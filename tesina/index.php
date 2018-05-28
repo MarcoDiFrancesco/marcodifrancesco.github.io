@@ -3,6 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Tesina Di Francesco</title>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-115310552-1');
+	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="style.css" type="text/css" rel="stylesheet">
 	<script>

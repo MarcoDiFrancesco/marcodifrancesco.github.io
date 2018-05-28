@@ -3,6 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <title>Snake</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-115310552-1');
+        </script>
+
 		<link rel="stylesheet" href="style.css" type="text/css">
         <script>
 //            https://codepen.io/ganmahmud/pen/RaoKZa
@@ -74,7 +82,7 @@
             }
 
             function swipedetect(el, callback){
-  
+
                 var touchsurface = el,
                 swipedir,
                 startX,
@@ -87,7 +95,7 @@
                 elapsedTime,
                 startTime,
                 handleswipe = callback || function(swipedir){}
-              
+
                 touchsurface.addEventListener('touchstart', function(e){
                     var touchobj = e.changedTouches[0]
                     swipedir = 'none'
@@ -97,11 +105,11 @@
                     startTime = new Date().getTime() // record time when finger first makes contact with surface
                     e.preventDefault()
                 }, false)
-              
+
                 touchsurface.addEventListener('touchmove', function(e){
                     e.preventDefault() // prevent scrolling when inside DIV
                 }, false)
-              
+
                 touchsurface.addEventListener('touchend', function(e){
                     var touchobj = e.changedTouches[0]
                     distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
@@ -119,7 +127,7 @@
                     e.preventDefault()
                 }, false)
             }
-              
+
             //USAGE:
 
             var el = document.getElementById('swipezone');
