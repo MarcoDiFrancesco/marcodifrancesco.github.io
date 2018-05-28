@@ -17,8 +17,8 @@
 
 	<script>
 		// Richiamo insert.php per l'inserimento del pin a 0 o 1 nel database
-		$( document ).ready( function () {
-			$( 'input[type="checkbox"]' ).change( function () {
+		$(document).ready( function () {
+			$('input[type="checkbox"]').change( function () {
 				var ledNumber = $( this ).val();
 				if ( this.checked ) {
 					var ledState = 1;
@@ -32,35 +32,34 @@
 						ledState: ledState,
 						ledNumber: ledNumber
 					},
-					success: function ( data ) {
-						$( '#result' ).html( data );
+					success: function(risposta) {
+						$('#result').html("Update "+risposta);
 					}
 				} );
 			} );
 		} );
 	</script>
 	<script>
-		/*	window.onload = */
-		$( document ).ready( function () {
-			$( '[onload]' ).each( function updateLed() {
-				var ledNumber = $( this ).val();
-				$.ajax( {
-					url: "check.php",
-					method: "POST",
-					data: {
-						ledNumber: ledNumber
-					},
-					success: function ( ledState ) {
-						$( '#result2' ).html( ledState );
-						if ( ledState == 0 ) {
-							document.getElementById( ledNumber ).checked = false;
-						} else {
-							document.getElementById( ledNumber ).checked = true;
-						}
+	/*	window.onload = */
+	$(document).ready(function(){
+		$('[onload]').each(function updateLed() {
+			var ledNumber = $(this).val();
+			$.ajax( {
+				url: "check.php",
+				method: "POST",
+				data: {
+					ledNumber: ledNumber
+				},
+				success: function (ledState) {
+					if ( ledState == 0 ) {
+						document.getElementById( ledNumber ).checked = false;
+					} else {
+						document.getElementById( ledNumber ).checked = true;
 					}
-				} );
+				}
 			} );
 		} );
+	} );
 	</script>
 </head>
 
@@ -73,14 +72,12 @@
 				<span class="slider round"></span>
 			</label>
 
-
 		</div>
 		<div>LED 2
 			<label class="switch">
 				<input type="checkbox" name="state" id="2" value="2" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-
 
 		</div>
 		<div>LED 3
@@ -89,7 +86,6 @@
 				<span class="slider round"></span>
 			</label>
 
-
 		</div>
 		<div>LED 4
 			<label class="switch">
@@ -97,12 +93,12 @@
 				<span class="slider round"></span>
 			</label>
 		</div>
+
 		<div>LED 5
 			<label class="switch">
 				<input type="checkbox" name="state" id="5" value="5" onload="updateLed();">
 				<span class="slider round"></span>
 			</label>
-
 
 		</div>
 		<div>LED 6
@@ -111,10 +107,8 @@
 				<span class="slider round"></span>
 			</label>
 
-
 		</div>
-		<h3 id="result">Clicca per aggiornare un led... </h3>
-		<h3 id="result2">Collegamento in corso... </h3>
+		<h3 id="result"></h3>
 		<br/>
 	</form>
 </body>
