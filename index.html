@@ -2,7 +2,23 @@
 <html lang="it">
   <head>
     <title>MarcoDi Francesco</title>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Firebase link -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDqJDjvbMCY4xSfPL2aGqNf4Xyg7tovcKo",
+        authDomain: "website-882c9.firebaseapp.com",
+        databaseURL: "https://website-882c9.firebaseio.com",
+        projectId: "website-882c9",
+        storageBucket: "website-882c9.appspot.com",
+        messagingSenderId: "759975583375"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <!-- Analytics link -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -10,6 +26,7 @@
 		  gtag('js', new Date());
 		  gtag('config', 'UA-115310552-1');
 		</script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
   </head>
