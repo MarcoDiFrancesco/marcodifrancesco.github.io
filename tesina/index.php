@@ -67,7 +67,7 @@
 					url:"updateTable.php",
 					success:
 					function(tableResult){
-						$('#tableResult').html("Test"+tableResult);
+						$('#tableResult').html(tableResult);
 						setTimeout(function(){
 							updateTable();
 						},1000); // update every sec
@@ -126,20 +126,7 @@
 			<h3 id="result"></h3>
 			<br/>
 		</div>
-			<table style="width: 50%; display:inline-table; border-spacing:0px;">
-				<tr>
-					<th></th>
-					<th>Now</td>
-					<th>Max</td>
-					<th>Min</td>
-				</tr>
-				<tr>
-					<th>Sensor 1:</td>
-					<td>10</td>
-					<td>15</td>
-					<td>5</td>
-				</tr>
-				<p id="tableResult"></p>
-			</table>
+		<!-- Adding data from the database with updateTable.php -->
+		<div id="tableResult"></div>
 	</body>
 </html>
