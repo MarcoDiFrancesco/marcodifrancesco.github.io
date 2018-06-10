@@ -60,6 +60,22 @@
 			} );
 		} );
 		</script>
+		<script>
+		$(document).ready(function(){
+			$('[onload]').each(function updateTable(){
+				$.ajax({
+					url:"updateTable.php",
+					success:
+					function(tableResult){
+						$('#tableResult').html("Test"+tableResult);
+						setTimeout(function(){
+							updateTable();
+						},1000); // update every sec
+					}
+				});
+			});
+		});
+		</script>
 	</head>
 	<body>
 		<h1>Controllo casa domotica update</h1>
@@ -110,7 +126,7 @@
 			<h3 id="result"></h3>
 			<br/>
 		</div>
-			<table align="middle" style="width: 100px; display:inline-table;">
+			<table style="width: 50%; display:inline-table; border-spacing:0px;">
 				<tr>
 					<th></th>
 					<th>Now</td>
@@ -123,6 +139,7 @@
 					<td>15</td>
 					<td>5</td>
 				</tr>
+				<p id="tableResult"></p>
 			</table>
 	</body>
 </html>
