@@ -16,12 +16,12 @@ echo"<table>
 for ($i=1; $i <= 6; $i++) {
   /* join is inserted to select the "last record" */
   $query = "SELECT lastTable.sensor{$i} AS lastRecord,MAX(sensors.sensor{$i}) AS maxRecord,MIN(sensors.sensor{$i}) AS minRecord
-  FROM sensors
-  JOIN (SELECT id,sensor{$i}
-      FROM sensors
-      ORDER BY sensors.id DESC
-      LIMIT 1) lastTable";
-      $resultQuery = mysqli_query($connect, $query);
+					  FROM sensors
+					  JOIN (SELECT id,sensor{$i}
+					      FROM sensors
+					      ORDER BY sensors.id DESC
+					      LIMIT 1) lastTable";
+					      $resultQuery = mysqli_query($connect, $query);
       $resultRow=mysqli_fetch_assoc($resultQuery);
       if($i == 1){
         $sensorName = "Living room gas";
@@ -47,9 +47,9 @@ for ($i=1; $i <= 6; $i++) {
 
 echo "<tr>
         <th>{$sensorName}</th>
-        <td>".$resultRow["lastRecord"]."</td>
-        <td>".$resultRow["maxRecord"]."</td>
-        <td>".$resultRow["minRecord"]."</td>
+        <td>{$resultRow['lastRecord']}</td>
+        <td>{$resultRow['maxRecord']}</td>
+        <td>{$resultRow['minRecord']}</td>
       </tr>";
 }
 echo "</table>";
