@@ -5,18 +5,49 @@
 		td {
 			padding: 10px;
 		}
-
 		tr {
 			border-bottom: 1px solid lightgray;
 		}
-
 		table {
 			border-collapse: collapse;
 		}
 		</style>
 		<title>Upload files</title>
 		<meta charset="utf-8">
-		</head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('[onload]').ready(function(){ // onload of the page update table
+				$.ajax({
+					type:"POST",
+					url: "search.php",
+					data:{
+						'searchInput':''
+					},
+					success: function(result){
+		        $("#searchOutput").html(result);
+		    	}
+				});
+			});
+
+			$("#searchFiles").keyup(function(){ // when there is an input update table
+				value = $(this).val();
+		    $.ajax({
+					type:"POST",
+					url: "search.php",
+					data:{
+						'searchInput':value
+					},
+					success: function(result){
+		        $("#searchOutput").html(result);
+		    	}
+				});
+			});
+		});
+		</script>
+
+
+	</head>
 	<body>
 		<div style="float: left; margin-left: 20px; margin-right: 20px;">
 			<h1 style="-webkit-margin-before:0px;">Upload your files</h1>
@@ -34,22 +65,12 @@
 			</form>
 		</div>
 		<div>
-			<h1>Uploaded files</h1>
+			<div>
+				<h1>Uploaded files</h1>
+				<input type="text" width="100px" placeholder="Search" id="searchFiles">
+			</div>
 			<table>
-				<?php
-				$files = glob('../file/*');
-
-				usort($files, function($a, $b) {
-				    return filemtime($a) < filemtime($b);
-				});
-
-				foreach($files as $file){
-			    echo "<td><a href='{$file}'>".basename($file)."</a></td>
-		      <td>".date('d/m/Y - H:i', filemtime($file))."</td>
-					</tr>";
-				}
-				?>
-
+				<div id="searchOutput"></div>
 			</table>
 		</div>
 	</body>
