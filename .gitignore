@@ -1,2 +1,2 @@
-upload/uploads/*
-!upload/uploads/test.txt
+file/*
+!file/test.txt

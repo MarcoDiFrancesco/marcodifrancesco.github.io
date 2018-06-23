@@ -1,5 +1,5 @@
 <?php
-$target_file = "uploads/" . basename($_FILES["fileToUpload"]["name"]);
+$target_file = "/file" . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if file already exists

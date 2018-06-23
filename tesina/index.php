@@ -78,52 +78,46 @@
 		</script>
 	</head>
 	<body>
-		<h1>Controllo casa domotica update</h1>
+		<h1>Controllo casa domotica</h1>
+		<p><h2><a href="testo.html" style="color:black; text-decoration:none;">Tesina</a></h2></p>
+
 		<div>
 			<div>
-				LED 1
+				Living room &nbsp&nbsp&nbsp
 				<label class="switch">
 					<input type="checkbox" name="state" id="1" value="1" onload="updateLed();">
 					<span class="slider round"></span>
 				</label>
 
 			</div>
-			<div>LED 2
+			<div>Kitchen &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<label class="switch">
 					<input type="checkbox" name="state" id="2" value="2" onload="updateLed();">
 					<span class="slider round"></span>
 				</label>
 
 			</div>
-			<div>LED 3
+			<div>Red room &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<label class="switch">
 					<input type="checkbox" name="state" id="3" value="3" onload="updateLed();">
 					<span class="slider round"></span>
 				</label>
 
 			</div>
-			<div>LED 4
+			<div>Blue room &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<label class="switch">
 					<input type="checkbox" name="state" id="4" value="4" onload="updateLed();">
 					<span class="slider round"></span>
 				</label>
 			</div>
 
-			<div>LED 5
+			<div>Yellow room &nbsp&nbsp&nbsp
 				<label class="switch">
 					<input type="checkbox" name="state" id="5" value="5" onload="updateLed();">
 					<span class="slider round"></span>
 				</label>
 
 			</div>
-			<div>LED 6
-				<label class="switch">
-					<input type="checkbox" name="state" id="6" value="6" onload="updateLed();">
-					<span class="slider round"></span>
-				</label>
-
-			</div>
-			<h3 id="result"></h3>
 			<br/>
 		</div>
 		<!-- Adding data from the database with updateTable.php -->
