@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Tesina Di Francesco</title>
-
+		<?php // no cache in this page
+		header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
+		header("Pragma: no-cache"); // HTTP 1.0.
+		header("Expires: 0"); // Proxies.
+		?>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -79,7 +83,10 @@
 	</head>
 	<body>
 		<h1>Controllo casa domotica</h1>
-		<p><h2><a href="testo.html" style="color:black; text-decoration:none;">Tesina</a></h2></p>
+		<h2><a href="testo.html" style="color:black; text-decoration:none;">Thesis</a></h2>
+		<h2><a href="https://docs.google.com/presentation/d/1DRQywpCJoIvB2dvbATTB59T-y3Fjk74rXPHJMoNFCEQ/edit?usp=sharing" style="color:black; text-decoration:none;">Presentation</a>
+		<a href="https://chrome.google.com/webstore/detail/cbonncglhpmonkjnpnkiihpehlnhlhhf" style="color:black; text-decoration:none; font-size:small;">(Extension)</a></h2>
+		<h2><a href="https://github.com/MarcoDiFrancesco/HomeAutomation/" style="color:black; text-decoration:none;">Code</a></h2>
 
 		<div>
 			<div>
@@ -97,7 +104,7 @@
 				</label>
 
 			</div>
-			<div>Red room &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<div>Red room &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<label class="switch">
 					<input type="checkbox" name="state" id="3" value="3" onload="updateLed();">
 					<span class="slider round"></span>
