@@ -82,10 +82,9 @@
 			</form>
 			<form method="post" action="linkUpload.php" enctype="multipart/form-data">
 				<br>
-				<h1>Upload Google Drive files</h1>
-				<h3>Still not working</h3>
-				<input type="text" name="linkToUpload" value="https://www.marcodifrancesco.com/upload/uploads/UNIPD%20Scienze%20.pdf" style="margin-right: 10px; width: 200px;">
-				<input type="submit" name="submit" value="Upload from link" style="margin-top: 10px;">
+				<h1>Upload files from link</h1>
+				<input type="text" placeholder="Paste the link" name="linkToUpload" style="margin-right: 10px; width: 200px;">
+				<input type="submit" name="submit" value="Upload" style="margin-top: 10px;">
 			</form>
 		</div>
 		<div>
