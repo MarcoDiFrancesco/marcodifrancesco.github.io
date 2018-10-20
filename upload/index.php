@@ -26,10 +26,13 @@
 						'sort':'date'
 					},
 					success: function(result){
-		      //  $("#searchOutput").html(result);
+		        $("#searchOutput").html(result);
 		    	}
 				});
 			});
+			
+			/*
+			// version of sorting in a file, not working 
 
 			$("#searchFiles").keyup(function(){ // when there is an input update table
 				value = $(this).val();
@@ -63,6 +66,7 @@
 		    	}
 				});
 			});
+			*/
 		});
 		</script>
 
@@ -81,7 +85,7 @@
 				<h1>Upload Google Drive files</h1>
 				<h3>Still not working</h3>
 				<input type="text" name="linkToUpload" value="https://www.marcodifrancesco.com/upload/uploads/UNIPD%20Scienze%20.pdf" style="margin-right: 10px; width: 200px;">
-				<input type="submit" name="submit" value="Upload from link" disabled="yes" style="margin-top: 10px;">
+				<input type="submit" name="submit" value="Upload from link" style="margin-top: 10px;">
 			</form>
 		</div>
 		<div>
@@ -106,6 +110,9 @@
 						</th>
 					</tr>
 				</form>
+			</table>
+			<table>
+				<div id="searchOutput"></div>
 			</table>
 		</div>
 	</body>
