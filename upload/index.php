@@ -85,6 +85,7 @@
 				<h1>Upload files from link</h1>
 				<input type="text" placeholder="Paste the link" name="linkToUpload" style="margin-right: 10px; width: 200px;">
 				<input type="submit" name="submit" value="Upload" style="margin-top: 10px;">
+				<h5>Need to remove a file? admin@marcodifrancesco.com</h5>
 			</form>
 		</div>
 		<div>
