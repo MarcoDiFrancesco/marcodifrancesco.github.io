@@ -1,1 +1,2 @@
-RedirectMatch 301 /homeautomation(.*) http://www.marcodifrancesco.com/tesina
+RedirectMatch 301 /homeautomation(.*) https://www.marcodifrancesco.com/tesina
+RedirectMatch 301 /file https://www.marcodifrancesco.com/upload
