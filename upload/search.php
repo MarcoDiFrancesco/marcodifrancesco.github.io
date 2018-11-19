@@ -1,6 +1,5 @@
 <?php
 $input = $_POST["searchInput"];
-$sort = $_POST["sort"];
 
 $files = glob("../file/*{$input}*");
 
