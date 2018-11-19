@@ -14,6 +14,12 @@
 		</style>
 		<title>Upload files</title>
 		<meta charset="utf-8">
+				
+		<!-- clear cache website -->
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
