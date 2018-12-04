@@ -1,2 +1,2 @@
 file/*
-!file/test.txt
+!file/test*.txt
