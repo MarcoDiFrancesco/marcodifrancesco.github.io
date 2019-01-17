@@ -1,7 +1,8 @@
 <?php
 $link = $_POST["linkToUpload"];
+$filename = basename($link);
 
-$upload = file_put_contents("../file/test".rand().".txt", fopen($link, 'r'));
+$upload = file_put_contents("../file/".$filename, fopen($link, 'r'));
 
 // https://drive.google.com/uc?authuser=0&id=1Cphvdy85UnC4ne2UtioRJ1YNkxc4RQpl&export=download
 // https://www.marcodifrancesco.com/upload/uploads/100%20mega.txt
