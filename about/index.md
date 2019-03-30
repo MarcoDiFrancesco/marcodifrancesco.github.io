@@ -1,1 +1,0 @@
-Ciao! Sono Marco Di Francesco. Studio all'università degli studi di Trento nella facoltà di Scienze informatiche.
