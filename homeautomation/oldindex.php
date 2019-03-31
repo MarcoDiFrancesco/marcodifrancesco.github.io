@@ -8,13 +8,6 @@
 		header("Pragma: no-cache"); // HTTP 1.0.
 		header("Expires: 0"); // Proxies.
 		?>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115310552-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'UA-115310552-1');
-		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="style.css" type="text/css" rel="stylesheet">
