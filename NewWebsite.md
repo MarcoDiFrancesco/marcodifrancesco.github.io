@@ -10,13 +10,18 @@ Top right bar links to:
 ## Top image
 Picture full size
 - Name
-- Full-Stack Web Developer
+- Full-Stack Developer
 
 
 ![Sample picture of the website](https://i.imgur.com/xKTVMUx.png)
 
 ## Middle: about me
-Title: some things about me
+```
+A few things about me... | Summary | About me
+
+Higly motivated Full-Stack Developer creating intuitive and sleek web experiences with clean code. Slef driven and always learning.
+```
+
 Text:
 Don't write about 
 "making projects from cratch"
@@ -38,8 +43,36 @@ Title: Get in touch
 ![Footer sample](https://i.imgur.com/5Xni3c7.png)
 
 ## Things to do/avoid
-Avoid killset (with proficency levels, like bars)
+Avoid killset (with proficency levels, like bars).
 
 Add website page for a specific project just in case there isn't a specific page dedicated to it, so if I make a website and it has its own page, don't make another page just to explain it.
 
-Don't add social links to Facebook, Instagram and keep serpated the website and linkedin.
+Avoid to add social links to Facebook, Instagram and keep serpated the website and linkedin.
+
+Add papers (articles) just if they are related to software development.
+
+Avoid to show resume in the first page, so add before projects and in another page resume.
+
+Main links to add:
+- Github
+- Linkedin
+- Resume
+
+Links to avoid:
+- Instagram
+- Facebook
+- Stack overflow (it isn't useful to know the problems I have while programming)
+
+Don't put location in the description, just in the bottom.
+
+
+
+# Projects page (if it exists)
+Split page in two. In the left part put picture and in the right part the text.
+
+# Resume
+Add in the top clickable link to Linkedin and Github.
+Add experience.
+Add projects (the best 3).
+Don't put dates on education (like school and university), just write I've graduated.
+Don't write the word internship, just what I've done there.
