@@ -77,5 +77,15 @@ Add projects (the best 3).
 Don't put dates on education (like school and university), just write I've graduated.
 Don't write the word internship, just what I've done there.
 
+## Cober letter
+If I'm applying for a job that requires some years of experience I can write: if this job si not the perfect fit for me, I'm open and flexible to any other position you may think better fits my skill set.
+
+Jobs is better to apply:
+- Unpayed internship
+- Payed internship
+- Entry-level developer
+- Junior developer
+- Any other thing with "Software"
+
 # Redirecs
 Set up social redirects
