@@ -1,6 +1,7 @@
-RedirectMatch 301 /homeautomation(.*) https://marcodifrancesco.com/tesina
-RedirectMatch 301 /file https://marcodifrancesco.com/upload
+RedirectMatch 301 /homeautomation(.*) https://marcodifrancesco.com/tesina/
+RedirectMatch 301 /file https://marcodifrancesco.com/upload/
 
 # social redirect
-RedirectMatch 301 /github https://github.com/MarcoDiFrancesco
+RedirectMatch 301 /github https://github.com/MarcoDiFrancesco/
 RedirectMatch 301 /linkedin https://www.linkedin.com/in/MarcoDiFran/
+RedirectMatch 301 /resume https://marcodifrancesco.com/cv/

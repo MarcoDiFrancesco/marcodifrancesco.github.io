@@ -76,3 +76,6 @@ Add experience.
 Add projects (the best 3).
 Don't put dates on education (like school and university), just write I've graduated.
 Don't write the word internship, just what I've done there.
+
+# Redirecs
+Set up social redirects
