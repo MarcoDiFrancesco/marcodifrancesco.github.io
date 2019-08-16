@@ -1,5 +1,4 @@
 # New website
-## Main page / landing page
 ### Top bar
 Top left Icon avoid just an icon (like Twitter and Facebook have) and put the name and surname.  
 Top right bar links to:
@@ -33,7 +32,6 @@ or
 
 ![Projects sample](https://i.imgur.com/VxTvhgn.png)
 
-
 ## Footer
 Title: Get in touch
 - Address: Venice, Italy
@@ -64,8 +62,6 @@ Links to avoid:
 - Stack overflow (it isn't useful to know the problems I have while programming)
 
 Don't put location in the description, just in the bottom.
-
-
 
 # Projects page (if it exists)
 Split page in two. In the left part put picture and in the right part the text.
