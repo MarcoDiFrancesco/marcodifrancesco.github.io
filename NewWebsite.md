@@ -20,10 +20,13 @@ Picture full size
 
 ## Middle: about me
 
-```
 A few things about me... | Summary | About me
-
+```
 Higly motivated Full-Stack Developer creating intuitive and sleek web experiences with clean code. Slef driven and always learning.
+```
+
+```
+I am a web developer from Venice, currently living and studying in Trento, Italy. 
 ```
 
 ## Middle: projects
@@ -109,7 +112,7 @@ Don't put picture in the resume, if the employer want to check out my face can j
 
 Avoid putting forein languages when looking for a software developer job, english is obvious and
 
-## Cober letter
+## Cover letter
 
 If I'm applying for a job that requires some years of experience I can write: if this job si not the perfect fit for me, I'm open and flexible to any other position you may think better fits my skill set.
 
