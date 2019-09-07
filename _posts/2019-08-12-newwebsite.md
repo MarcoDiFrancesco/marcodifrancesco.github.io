@@ -1,5 +1,7 @@
-# New website
-
+---
+title: "New website"
+permalink: /newwebsite
+---
 ### Top bar
 
 Top left Icon avoid just an icon (like Twitter and Facebook have) and put the name and surname.  
