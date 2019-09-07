@@ -1,6 +1,6 @@
 ---
 title: "New website"
-permalink: /newwebsite
+permalink: /newwebsite/
 ---
 ### Top bar
 

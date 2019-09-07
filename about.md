@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 #### Email: [info@marcodifrancesco.com](mailto:info@marcodifrancesco.com)
