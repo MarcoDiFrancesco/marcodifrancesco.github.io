@@ -1,5 +1,5 @@
 ---
-title: "New website"
+title: "How to make the new website"
 permalink: /newwebsite/
 ---
 ### Top bar
