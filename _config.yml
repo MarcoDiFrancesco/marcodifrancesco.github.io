@@ -1,84 +1,28 @@
-title: Marco Di Francesco Portfolio
-author: MarcoDiFrancesco
-email: info@marcodifrancesco.com
-description: I am a web developer from Venice, currently living and studying in Trento, Italy.
-
+title: "Marco Di Francesco Portfolio"
+description: "I am a web developer from Venice, currently living and studying in Trento, Italy."
+url: "https://marcodifrancesco.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+email: "info@marcodifrancesco.com"
+logo: "/assets/icon/logo.png"
+lang: "en"
 show_excerpts: false # set to true to show excerpts on the homepage
+github_username: MarcoDiFrancesco
+repository: MarcoDiFrancesco/marcodifrancesco.github.io # Github repository
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
+theme: minima
+minima: # Minima date format refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
   date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
+  social_links: # Generate social links in footer
     github:  MarcoDiFrancesco
     linkedin: MarcoDiFran
-    # rss: rss
-    # twitter: jekyllrb
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://marcodifrancesco.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: MarcoDiFrancesco
-
-# Github repository
-repository: MarcoDiFrancesco/marcodifrancesco.github.io
-
-# Build settings
-theme: minima
 
 plugins:
-# - jekyll-feed
 - jekyll-seo-tag
-- jekyll-pwa-plugin 
+- jekyll-redirect-from
 
-# Default settings for pages
-defaults:
+defaults: # Default settings for posts
   - scope:
       type: "posts"
     values:
       layout: "post"
       author: "Marco Di Francesco"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-pwa:
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"

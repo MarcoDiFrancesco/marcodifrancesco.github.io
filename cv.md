@@ -2,6 +2,8 @@
 layout: page
 title: Resume
 permalink: /cv/
+redirect_from:
+  - /resume/
 ---
 
 # Work experience

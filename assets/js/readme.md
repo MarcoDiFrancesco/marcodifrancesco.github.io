@@ -1,0 +1,1 @@
+Page used to store cached JS filed from service-worker.js

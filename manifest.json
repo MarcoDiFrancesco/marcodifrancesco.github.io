@@ -1,20 +1,24 @@
 {
-  "dir": "ltr",
-  "lang": "English",
   "name": "Marco Di Francesco Portfolio",
   "short_name": "Marco Di Francesco",
+  "description": "I am a web developer from Venice, currently living and studying in Trento, Italy.",
+  "lang": "English",
+  "start_url": "/",
   "scope": "/",
-  "display": "minimal-ui",
-  "start_url": "https://marcodifrancesco.com/",
+  "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#fff",
-  "description": "I am a web developer from Venice, currently living and studying in Trento, Italy.",
   "orientation": "any",
   "generated": "true",
   "icons": [
     {
-      "src": "/assets/icon/favicon.ico",
+      "src": "favicon.ico",
       "sizes": "16x16"
+    },
+    {
+      "src": "/assets/icon/logo.png",
+      "sizes": "500x500",
+      "type": "image/png"
     },
     {
       "src": "/assets/icon/favicon-44x44.png",
