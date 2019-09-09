@@ -7,16 +7,11 @@ redirect_from:
 ---
 
 # Work experience
-#### **Weiter**
+#### **Waiter**
 **Tropical resturant**  
 06/2018 – 08/2018  
 
-Mansioni svolte:
-- Preparazione sala e tavoli di servizio
-- Accoglienza alla clientela
-- Servizio in sala pranzo e cena
-- Sbarazzo e riordino tavoli
-- Pulizia e riordino sala
+Dedicated to provide a pleasurable dinning experience with a natural poise and a frendly demeanor. 
 
 #### **Community Volunteer**
 **IJGD Germany**  
