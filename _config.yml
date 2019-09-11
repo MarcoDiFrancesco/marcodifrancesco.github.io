@@ -32,6 +32,6 @@ defaults: # Default settings for posts
     values:
       sitemap: false
   - scope:
-      path: "file/js"
+      path: "assets/js"
     values:
       sitemap: false
