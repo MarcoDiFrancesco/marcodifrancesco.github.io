@@ -6,7 +6,7 @@ redirect_from:
   - /resume/
 ---
 
-# Work experience
+## Work experience
 #### **Waiter**
 **Tropical resturant**  
 06/2018 – 08/2018  
@@ -28,6 +28,7 @@ Worked in data input of INPS's database.
 Worked in city restoration and creation of sustainable items.
 
 ---
+<br />
 
 # Education
 #### **Bachelor of Computer Science**
@@ -38,6 +39,17 @@ Worked in city restoration and creation of sustainable items.
 **E. Fermi, Venice**  
 2013 – 2018  
 Grade: 68/100
+
+---
+<br />
+
+# Languages
+- Italian (Native or bilingual proficiency)
+- English (Professional working proficiency)
+- Spanish (Elementary proficiency)
+
+---
+<br />
 
 # Certificates
 #### Cisco
@@ -53,8 +65,3 @@ Grade: 68/100
 - [English certificate B2](/file/English_B2_certificate.pdf){:target="_blank"}
 - [Spanish certificate A1](/file/Spanish_A1_certificate.pdf){:target="_blank"}
 - [Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
-
-# Languages
-- Italian (Native or bilingual proficiency)
-- English (Professional working proficiency)
-- Spanish (Elementary proficiency)

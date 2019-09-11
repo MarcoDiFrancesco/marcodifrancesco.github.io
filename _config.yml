@@ -19,6 +19,7 @@ minima: # Minima date format refer to https://shopify.github.io/liquid/filters/d
 plugins:
 - jekyll-seo-tag
 - jekyll-redirect-from
+- jekyll-sitemap
 
 defaults: # Default settings for posts
   - scope:
@@ -26,3 +27,7 @@ defaults: # Default settings for posts
     values:
       layout: "post"
       author: "Marco Di Francesco"
+  - scope:
+      path: "file/*.pdf"
+    values:
+      sitemap: false
