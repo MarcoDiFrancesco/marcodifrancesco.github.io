@@ -41,18 +41,18 @@ Grade: 68/100
 
 # Certificates
 #### Cisco
-- [Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf)
-- [Linux essential](/file/Linux_essential_certificate.pdf)
-- [Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf)
+- [Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
+- [Linux essential](/file/Linux_essential_certificate.pdf){:target="_blank"}
+- [Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf){:target="_blank"}
 
 #### Volunteer
-- [Volunteering in France](/file/Lunaria_France_certificate.pdf)
-- [Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf)
+- [Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
+- [Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
 
 #### Other certificates
-- [English certificate B2](/file/English_B2_certificate.pdf)
-- [Spanish certificate A1](/file/Spanish_A1_certificate.pdf)
-- [Google Digital Training](/file/Google_Digital_Training_certificate.pdf)
+- [English certificate B2](/file/English_B2_certificate.pdf){:target="_blank"}
+- [Spanish certificate A1](/file/Spanish_A1_certificate.pdf){:target="_blank"}
+- [Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
 
 # Languages
 - Italian (Native or bilingual proficiency)
