@@ -48,4 +48,4 @@ The output should look like:
 
 Done 😊
 
-# [Github code](https://github.com/MarcoDiFrancesco/DoexercisesTools)
+# [Code on Github](https://github.com/MarcoDiFrancesco/DoexercisesTools)
