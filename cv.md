@@ -20,7 +20,7 @@ Took care of the Steinbruch park arrangements and cooperated with other voluntee
 #### **Database assistant**
 **INPS**  
 05/2017 – 06/2017  
-Worked in data input of INPS's database.
+Worked with INPS's database management system.
 
 #### **Community Volunteer**
 **Solidarités Jeunesses**  
