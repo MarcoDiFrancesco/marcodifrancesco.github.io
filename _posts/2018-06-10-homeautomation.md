@@ -2,12 +2,16 @@
 title: "Home Automation"
 permalink: /homeautomation/
 ---
+
 ## Introduzione
+
 Questo progetto, utilizza l'architettutra client-server per la gestione dei sistemi IOT da remoto tramite un sito web.
 
 ## Componenti utilizzati
+
 Il progetto é incentrato sulla programmazione che porta la casa domotica a comunicare con il sito Web.  
 La comunicazione avviene tramite 5 componenti:
+
 - Sensori e led
 - Arduino
 - Raspberry
@@ -19,6 +23,7 @@ La comunicazione avviene tramite 5 componenti:
 La comunicazione dei dati tra il sito web e i sensori è bidirezionale. I dati che sono inseriti all’interno del database sono richiesti sia dal sito web, sia da Raspberry che da Arduino.
 
 ## Setup
+
 ### Arduino
 
 <img src="https://github.com/MarcoDiFrancesco/HomeAutomation/raw/master/assets/images/Arduino.jpg" width="200">
@@ -26,7 +31,7 @@ La comunicazione dei dati tra il sito web e i sensori è bidirezionale. I dati c
 La programmazione di questo microcontrollore avviene tramite l'ambiente di sviluppo integrato: Arduino.  
 Questa applicazione va a prendere i dati dei vari sensori connessi tramite i pin, e va a leggere se i led devono essere accesi o spenti, per poi aggiornarli.
 
-``` Arduino
+```Arduino
 #include <dht11.h>
 
 #define DHT11_PIN2 A1 // temperature sensor n1
@@ -51,24 +56,24 @@ void setup() {
 void loop() {
   //  led(8, 13); // firstPin, lastPin
 
-  temperatureSensor(1); 
+  temperatureSensor(1);
   // connection with pin A0
   // print humidity and temperature
-  
-  temperatureSensor(2); 
+
+  temperatureSensor(2);
   // connection with pin A1
   // print humidity and temperature
 
-  Serial.print(analogRead(A2)); 
+  Serial.print(analogRead(A2));
   // print light sensor n1
   Serial.print("\t");
-  
-  Serial.print(analogRead(A3)); 
+
+  Serial.print(analogRead(A3));
   // print light sensor n1
   Serial.print("\t");
-  
-  Serial.println(); 
-  // print \n to close the string that will be sent 
+
+  Serial.println();
+  // print \n to close the string that will be sent
 
   if (Serial.available()) {
     while (Serial.available() > 0) {
@@ -97,11 +102,11 @@ void temperatureSensor(int nSensor) {
   } else {
     Serial.print("Error");
   }
-  Serial.print(sensore.humidity, 1); 
+  Serial.print(sensore.humidity, 1);
   // print humidity
   Serial.print("\t");
-  
-  Serial.print(sensore.temperature, 1); 
+
+  Serial.print(sensore.temperature, 1);
   // print temperature
   Serial.print("\t");
 }
@@ -113,7 +118,7 @@ void temperatureSensor(int nSensor) {
 Per la comunicazione seriale con Arduino viene utilizzato Processing, un programma basato su Java. Il programma ha lo scopo di far comunicare Arduino al database. Il programma fa richiesta al database per richiedere quali led devono essere accesi, e passa questi dati all'Arduino, inoltre il programma fa la richiesta ad Arduino dei dati dei sensori per passarli al database.  
 Il file scritto in processing è stato salvato in un file all’interno di Raspberry. Questo viene avviato all’accensione del Raspberry tramite uno script. Lo scipt è stato preso dalla [seguente pagina](https://raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up).
 
-``` Processing
+```Processing
 import processing.serial.*;
 Serial port;
 String input;
@@ -132,7 +137,7 @@ void draw() {
     input = trim(input);
     int dataSensors[];
     dataSensors = int(split(input,'\t'));
-    Try{ 
+    Try{
 // link to pass in POST the data
 loadStrings("https://www.marcodifrancesco.com/tesina/insertData.php?data1="+dataSensors[0]+
 "&data2="+dataSensors[1]+"&data3="+dataSensors[2]);
@@ -168,7 +173,7 @@ Tabella dei sensori:
 
 <img src='https://github.com/MarcoDiFrancesco/HomeAutomation/raw/master/assets/images/Database1.png' width=200>
 
-``` SQL
+```SQL
 `id` INT(8) NOT NULL AUTO_INCREMENT ,
 `sensor1` INT(64) NOT NULL ,
 `sensor2` INT(64) NOT NULL ,
@@ -180,39 +185,41 @@ Tabella dei LED:
 
 <img src='https://github.com/MarcoDiFrancesco/HomeAutomation/raw/master/assets/images/Database2.png' width=100>
 
-``` SQL
+```SQL
 `id` INT(8) NOT NULL AUTO_INCREMENT ,
 `state` TINYINT(1) NOT NULL ,
 PRIMARY KEY (`id`)
 ```
 
 ## Query
+
 Per la richiesta dei dati al database sono state utilizzate delle query in SQL inserite all’interno dei file PHP presenti nel sito. Le parentesi graffe presenti all’interno del codice rappresentano i dati che vengono passati tramite PHP.
 
 La prima query viene utilizzata dal sito, che richiede questa query in modalità POST (con la libreria di AJAX), nel momento in cui viene aggiornata la pagina HTML. Mentre questa query viene richiamata da Processing in modalità GET, e viene richiesta nel momento in cui viene effettuato il controllo se la luce é stata "accesa" o "spenta".
 
-``` SQL
+```SQL
 SELECT state FROM led where id={$ledNumber}
 	UPDATE led SET state='{$ledState}' WHERE id={$ledNumber}
 ```
 
 Per l’inserimento dei dati dei sensori. Viene richiesta da Raspberry per inserire i dati che vengono passati da Arduino. Questa pagina viene richiamata in modalità POST.
 
-``` SQL
+```SQL
 INSERT INTO sensors(sensor1,sensor2,sensor3)
 VALUES ('{$data1}', '{$data2}', '{$data3}');
 ```
 
 Query query viene utilizzata per la richiesta dei valori dei sensori inseriti nel database. La query richiede il valore massimo (`$i` rappresenta il numero del sensore), valore minimo e ultimo valore, per ogni sensore presente all’interno del database. L’ultimo dato presente all’interno del database é stato fatto in JOIN per fare in modo che ORDER BY non andasse a influire nei valori massimi e nei valori minimi.
-``` SQL
+
+```SQL
 SELECT lastTable.sensor{$i} AS lastRecord,
 MAX(sensors.sensor{$i}) AS maxRecord,
 MIN(sensors.sensor{$i}) AS minRecord
-	FROM sensors
-	JOIN (SELECT id,sensor{$i}
-			FROM sensors
-			ORDER BY sensors.id DESC
-			LIMIT 1) lastTable
+  FROM sensors
+  JOIN (SELECT id,sensor{$i}
+    FROM sensors
+    ORDER BY sensors.id DESC
+    LIMIT 1) lastTable
 ```
 
 ## Website
@@ -226,6 +233,7 @@ Il sito di supporto è stato montato su un computer in cui è installato XAMPP, 
 L’IP (assegnato dinamicamente) del computer viene collegato al link (marcodifrancesco.hopto.org) tramite NO-IP.
 
 Le pagine principali inserite all’interno del sito web sono:
+
 - [index.php](website/index.php)
 - [checkLed.php](website/checkLed.php)
 - [insert.php](website/insert.php)
@@ -233,11 +241,12 @@ Le pagine principali inserite all’interno del sito web sono:
 - [insertData.php](website/insertData.php)
 
 ### Index
+
 `index.php` è la pagina utilizzata per mostrare l’interfaccia dei led e dei sensori.  
 L’interfaccia di questa pagina é costituita da una serie di bottoni con cui é possibile interagire, e una tabella che mostra i dati dei sensori.  
 I bottoni che rappresentano i led, sono stati implementati con checkbox; lo stile di questi bottoni é importato da W3School.
 
-``` HTML
+```HTML
 <div>
     LED 1
     <label class="switch">
@@ -252,10 +261,12 @@ I bottoni che rappresentano i led, sono stati implementati con checkbox; lo stil
     </label>
 </div>
 ```
+
 L’aggiornamento in background dei checkbox viene gestito da uno Script, che all’apertura della pagina avvia una funzione che controlla se i checkbox debbano essere spenti (con 0) oppure accesi (con 1). Lo Script inserito utilizza le librerie di Google jQuery AJAX, per implementare i metodi che vengano aggiornati in background.
 
 ### Script (front end)
-``` JavaScript
+
+```JavaScript
 $(document).ready(function(){
     $('[onload]').each(function updateLed() {
         var ledNumber = $(this).val();
@@ -278,7 +289,8 @@ $(document).ready(function(){
 ```
 
 ### PHP (back end)
-``` PHP
+
+```PHP
 $ledNumber = $_POST[ "ledNumber" ];
 $query = "SELECT state FROM led WHERE id={$ledNumber}";
 $sendquery = mysqli_query( $connect, $query );
@@ -290,12 +302,14 @@ echo $ledState;
 La tabella inserita all'interno della pagina contiene tutti i dati dei sensori. Quest’ultima viene interamente creata all’interno della pagina PHP, e vine e stampata all’interno del tag `<div>`. Lo script presente dentro la pagina HTML, aggiorna la tabella, una volta al secondo (1000 millisecondi) facendo richiesta alla pagina PHP. La pagina PHP richiede al database i dati dei sensori aggiornati, e passa i dati stampati direttamente dentro una tabella.
 
 ### HTML
-``` HTML
+
+```HTML
 <div id="tableResult"></div>
 ```
 
 ### JavaScript (front end)
-``` JavaScript
+
+```JavaScript
 $(document).ready(function(){
     $('[onload]').each(function updateTable(){
         $.ajax({
@@ -313,7 +327,8 @@ $(document).ready(function(){
 ```
 
 ### PHP (back end)
-``` PHP
+
+```PHP
 echo"<table>
       <tr>
         <th></th>
@@ -348,10 +363,12 @@ echo "<tr>
 }
 echo "</table>";
 ```
+
 L’aggiornamento dei checkbox onclick, viene gestito da uno Script che viene attivato nel momento in cui viene selezionato un checkbox. Questo controlla il numero del checkbox da cui é stato attivato, lo stato e richiede alla pagina PHP, di aggiornare lo stato di quel led. La pagina PHP crea una query che richiede al database di aggiornare lo stato del led richiesto (0 oppure 1).
 
 ### JavaScript (front end)
-``` JavaScript
+
+```JavaScript
 $(document).ready( function () {
     $('input[type="checkbox"]').change( function () {
         var ledNumber = $( this ).val();
@@ -374,8 +391,10 @@ $(document).ready( function () {
     } );
 } );
 ```
+
 ### PHP (back end)
-``` PHP
+
+```PHP
 $ledNumber = $_POST[ "ledNumber" ];
 $query = "SELECT state FROM led WHERE id={$ledNumber}";
 $sendquery = mysqli_query( $connect, $query );
@@ -384,7 +403,7 @@ $ledState = $takedata[0];
 echo $ledState;
 ```
 
----------------------------------------------------------
+---
 
 # How to implement
 
@@ -392,13 +411,14 @@ Questo progetto prevede la gestione della casa domotica tramite un Web Server, s
 Per l'utilizzo di un server locale si deve utilizzare il programma XAMPP.
 
 Step per la creazione:
-* Installare [XAMPP](https://www.apachefriends.org/download.html), [Arduino](https://www.arduino.cc/en/Main/Software), [Processing](https://processing.org/download)
-* Scaricare il repository e inserire la cartella unzippata `HomeAutomation-master` in `C:\xampp\htdocs`
-* Aprire XAMPP e avviare `Apache` e `MySQL`
-* Cercare nel browser l'indirizzo [`127.0.0.1/HomeAutomation-master/createDatabase.php`](http://127.0.0.1/HomeAutomation-master/createDatabase.php/) per creare il DataBase
-* Aprire `CasaDomotica.ino` con il programma Arduino
-* Per importare le librerie andare su `File` →  `Prefesences` → `Sketchbook location` e incollare `C:\xampp\htdocs\HomeAutomation-master`
-* Caricare il codice nel proprio Arduino con il comando `Upload`
-* Aprire il file `processing.pde` → `processing` e avviare il programma con il triangolo `Run`
 
-# [Code on Github](https://github.com/MarcoDiFrancesco/HomeAutomation)
+- Installare [XAMPP](https://www.apachefriends.org/download.html), [Arduino](https://www.arduino.cc/en/Main/Software), [Processing](https://processing.org/download)
+- Scaricare il repository e inserire la cartella unzippata `HomeAutomation-master` in `C:\xampp\htdocs`
+- Aprire XAMPP e avviare `Apache` e `MySQL`
+- Cercare nel browser l'indirizzo [`127.0.0.1/HomeAutomation-master/createDatabase.php`](http://127.0.0.1/HomeAutomation-master/createDatabase.php/) per creare il DataBase
+- Aprire `CasaDomotica.ino` con il programma Arduino
+- Per importare le librerie andare su `File` → `Prefesences` → `Sketchbook location` e incollare `C:\xampp\htdocs\HomeAutomation-master`
+- Caricare il codice nel proprio Arduino con il comando `Upload`
+- Aprire il file `processing.pde` → `processing` e avviare il programma con il triangolo `Run`
+
+## [Code on Github](https://github.com/MarcoDiFrancesco/HomeAutomation)

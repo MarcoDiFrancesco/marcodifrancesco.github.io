@@ -2,7 +2,7 @@ title: "Marco Di Francesco Portfolio"
 description: "I am a web developer from Venice, currently living and studying in Trento, Italy."
 url: "https://marcodifrancesco.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-email: "info@marcodifrancesco.com"
+email: "info{at}marcodifrancesco.com"
 logo: "/assets/icon/logo.png"
 lang: "en"
 show_excerpts: false # set to true to show excerpts on the homepage
