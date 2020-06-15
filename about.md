@@ -7,6 +7,6 @@ redirect_from:
   - /contact/
 ---
 
-#### Email: info{at}marcodifrancesco.com]
+#### Email: info{at}marcodifrancesco.com
 #### Linkedin: [https://www.linkedin.com/in/marcodifran](https://www.linkedin.com/in/marcodifran/)
 #### Github: [https://github.com/MarcoDiFrancesco](https://github.com/MarcoDiFrancesco)
