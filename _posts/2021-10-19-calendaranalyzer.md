@@ -1,6 +1,6 @@
 ---
-title: "Discord Bot Youtube"
-permalink: /DiscordBotYoutube/
+title: "Calendar Analyzer"
+permalink: /CalendarAnalyzer/
 ---
 
 # Calendar Analyzer
