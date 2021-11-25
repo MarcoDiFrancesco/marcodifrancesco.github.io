@@ -57,11 +57,12 @@ Grade: 68/100
 - [Linux essential](/file/Linux_essential_certificate.pdf){:target="_blank"}
 - [Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf){:target="_blank"}
 
-#### Volunteer
+#### Volunteering
 - [Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
 - [Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
 
 #### Other certificates
 - [English certificate B2](/file/English_B2_certificate.pdf){:target="_blank"}
+- [Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
 - [Spanish certificate A1](/file/Spanish_A1_certificate.pdf){:target="_blank"}
 - [Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
