@@ -14,9 +14,8 @@ Google Calendar allows you to download an ICS file of a specific calendar. We ca
 The link that appears in the box should look like one of these 2:
 
 ```
-ACCOUNT'S CALENDAR:
 https://calendar.google.com/calendar/ical/xxxxxxxxxxxxxxxxxxxxxxxxxx%40gmail.com/private-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/basic.ics
-OTHER CALENDAR:
+OR:
 https://calendar.google.com/calendar/ical/xxxxxxxxxxxxxxxxxxxxxxxxxx%40group.calendar.google.com/private-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/basic.ics
 ```
 
@@ -49,7 +48,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx@g
 
 Note also that the length of the user name may vary. That's why we cannot choose a consistent number of characters of the string, for example "the first 28".
 
-We are going to use this later when [creating the final link](#create-the-link).
+We are going to use this later when creating the final link.
 
 ## Event ID
 
