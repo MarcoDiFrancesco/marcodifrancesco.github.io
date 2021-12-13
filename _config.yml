@@ -13,13 +13,13 @@ theme: minima
 minima: # Minima date format refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
   date_format: "%b %Y" # "%b %-d, %Y"
   social_links: # Generate social links in footer
-    github:  MarcoDiFrancesco
+    github: MarcoDiFrancesco
     linkedin: MarcoDiFran
 
 plugins:
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 defaults: # Default settings for posts
   - scope:
@@ -27,6 +27,10 @@ defaults: # Default settings for posts
     values:
       layout: "post"
       author: "Marco Di Francesco"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
   - scope:
       path: "file/*.pdf"
     values:

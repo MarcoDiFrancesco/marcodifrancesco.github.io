@@ -1,6 +1,8 @@
 ---
 title: "Home Automation"
 permalink: /homeautomation/
+redirect_from:
+  - /tesina/
 ---
 
 ## Introduzione
