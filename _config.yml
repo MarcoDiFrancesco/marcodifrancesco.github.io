@@ -8,6 +8,7 @@ lang: "en"
 show_excerpts: false # set to true to show excerpts on the homepage
 github_username: MarcoDiFrancesco
 repository: MarcoDiFrancesco/marcodifrancesco.github.io # Github repository
+google_analytics: UA-115310552-1
 
 theme: minima
 minima: # Minima date format refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
