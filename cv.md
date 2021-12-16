@@ -54,27 +54,27 @@ Created a sustainable working environment in the city of La Ferté-sous-Jouarre,
 <br />
 
 # Languages
-- Italian (Native or bilingual proficiency)
-- English (Professional working proficiency)
-- German (Elementary proficiency)
+- 🇮🇹 Italian (Native or bilingual proficiency)
+- 🇬🇧 English (Professional working proficiency)
+- 🇩🇪 German (Elementary proficiency)
 
 ---
 <br />
 
 # Certificates
-#### Cisco
-- [Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
-- [Linux essential](/file/Linux_essential_certificate.pdf){:target="_blank"}
-- [Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf){:target="_blank"}
-
 #### Volunteering
-- [Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
-- [Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
+- [🙋 Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
+- [🙋‍♂ Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
 
-#### Language
-- [English certificate B2](/file/English_B2_certificate.pdf){:target="_blank"}
-- [Spanish partecipation certificate A1](/file/Spanish_A1_certificate.pdf){:target="_blank"}
-- German partecipation certificate A1
+#### Languages
+- [🇬🇧 English certificate B2](/file/English_B2_certificate.pdf){:target="_blank"}
+- [🇪🇸 Spanish partecipation certificate A1](/file/Spanish_A1_certificate.pdf){:target="_blank"}
+- [🇩🇪 German partecipation certificate A1](/file/German_A1_certificate.pdf){:target="_blank"}
+
+#### Cisco
+- [📶 Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
+- [🐧 Linux essential](/file/Linux_essential_certificate.pdf){:target="_blank"}
+- [📲 Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf){:target="_blank"}
 
 #### Other certificates
 - [Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
