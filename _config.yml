@@ -12,7 +12,7 @@ google_analytics: UA-115310552-1
 
 theme: minima
 minima: # Minima date format refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-  date_format: "%b %Y" # "%b %-d, %Y"
+  date_format: "%Y %b" # "%b %-d, %Y"
   social_links: # Generate social links in footer
     github: MarcoDiFrancesco
     linkedin: MarcoDiFran
