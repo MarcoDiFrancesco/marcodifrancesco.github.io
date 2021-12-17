@@ -1,6 +1,7 @@
 ---
 title: "Discord Bot Youtube"
 permalink: /DiscordBotYoutube/
+tags: project
 ---
 
 Get youtube from a list of channels and post the link of new videos:

@@ -1,0 +1,31 @@
+<style>
+  .box {
+    padding: 5px;
+  }
+
+  .project-box {
+    border-radius: 5px 5px 5px;
+    color: #007000;
+    font-size: 12px;
+    background-color: #c0f988;
+    border: 1px solid #007000;
+  }
+
+  .post-box {
+    border-radius: 5px 5px 5px;
+    color: #220c78;
+    font-size: 12px;
+    background-color: #88bbf9;
+    /* padding: 5px; */
+    border: 1px solid #220c78;
+  }
+</style>
+
+{%- if post.tags.size > 0 -%} {%- for tag in post.tags -%} {%- if tag ==
+"project" -%}
+<span class="post-meta box project-box">Project</span>
+{%- elsif tag == "post" -%}
+<span class="post-meta box post-box">Post</span>
+{%- else -%}
+<span class="post-meta box post-box">{{ tag }}</span>
+{%- endif-%} {%- endfor -%} {%- endif -%}

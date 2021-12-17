@@ -1,6 +1,7 @@
 ---
 title: "Unitn Google Calendar"
 permalink: /UnitnGoogleCalendar/
+tags: project
 ---
 
 This program makes Google Calendar update automaticly when lectures change.

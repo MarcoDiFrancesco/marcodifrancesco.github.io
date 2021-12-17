@@ -1,6 +1,7 @@
 ---
 title: "Progetto Sistemi Operativi"
 permalink: /ProgettoSistemiOperativi/
+tags: project
 ---
 
 PROGETTO II LabSO1 - AA 2019-2020 -- 202343, 202369, 202351, 204679

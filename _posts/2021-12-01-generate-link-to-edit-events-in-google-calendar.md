@@ -1,7 +1,9 @@
 ---
 title: "Generate link to edit events in Google Calendar"
 permalink: /generate-link-to-edit-events-in-google-calendar/
+tags: post
 ---
+
 After downloading an ICS file from Google Calendar, how do I generate the URL to edit a specific event?
 If that's the question you are asking, this is the right article for you!
 

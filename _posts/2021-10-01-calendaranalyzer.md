@@ -1,9 +1,8 @@
 ---
 title: "Calendar Analyzer"
 permalink: /CalendarAnalyzer/
+tags: project
 ---
-
-# Calendar Analyzer
 
 Visualize my life's activities
 

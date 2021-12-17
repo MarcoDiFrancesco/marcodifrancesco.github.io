@@ -3,6 +3,7 @@ title: "Web Uploader"
 permalink: /WebUploader/
 redirect_from:
   - /upload/
+tags: project
 ---
 Web Uploader is a **PHP** web page that allows to upload files to the server.
 
