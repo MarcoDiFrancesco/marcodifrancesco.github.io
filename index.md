@@ -1,4 +1,5 @@
 ---
 layout: home
 ---
-Hi, I'm Marco Di Francesco. I'm a software developer currently studying Computer Science at University of Trento.
+
+I'm a B.Sc student in Computer Science at the University of Trento. I've been working at **Fondazione Bruno Kessler** (FBK) as a **Junior Data Scientist**, focusing on the application of **Machine Learning** to bioimaging and natural language processing and the development of cloud-based framework for large scale dataset analysis.
