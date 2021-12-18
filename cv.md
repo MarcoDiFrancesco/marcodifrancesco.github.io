@@ -6,6 +6,11 @@ redirect_from:
   - /resume/
 ---
 
+## Contacts
+**Linkedin** (preferred): [https://www.linkedin.com/in/marcodifran/](https://www.linkedin.com/in/marcodifran/){:target="_blank"}{:style="color: black"}
+
+Email: info{at}marcodifrancesco.com
+
 ## Experience
 #### 💻 **Data Scientist**
 **Fondazione Bruno Kessler - FBK**  
@@ -48,6 +53,11 @@ Created a sustainable working environment in the city of La Ferté-sous-Jouarre,
 #### 🎓 **Enrico Fermi, Venice**
 **Secondary School Diploma in Computer Science**  
 *2013 – 2018*
+
+---
+
+## Projects
+See [homepage](/){:style="color: black"}
 
 ---
 
