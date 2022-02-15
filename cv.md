@@ -85,6 +85,11 @@ See [homepage](/){:style="color: black; text-decoration: underline;"}
 ---
 
 ## Certificates
+#### Projects
+- [AI Challenge](/file/AI_Challenge_Certificate.pdf){:target="_blank"}
+- [Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
+- [Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
+
 #### Volunteering
 - [🙋 Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
 - [🙋‍ Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
@@ -99,7 +104,3 @@ See [homepage](/){:style="color: black; text-decoration: underline;"}
 - [📶 Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
 - [🐧 Linux essential](/file/Linux_essential_certificate.pdf){:target="_blank"}
 - [📲 Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf){:target="_blank"}
-
-#### Other certificates
-- [Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
-- [Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
