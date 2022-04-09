@@ -50,7 +50,8 @@ Created a sustainable working environment in the city of La Ferté-sous-Jouarre,
 #### 🎓 **University of Trento**
 **Bachelor of Computer Science**  
 *2018 Sep - 2022 Mar*
-Academic Awards:
+
+Academic Awards:  
 🏆 2022 Innovation Scholar • School of Innovation  
 🏆 AI Challenge Finalist • Innovation in the industrial context (Bronze)  
 
@@ -86,19 +87,18 @@ See [homepage](/){:style="color: black; text-decoration: underline;"}
 
 ## Certificates
 #### Projects
-- [AI Challenge](/file/AI_Challenge_Certificate.pdf){:target="_blank"}
-- [Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
-- [Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
+- [🏆 AI Challenge](/file/AI_Challenge_Certificate.pdf){:target="_blank"}
+- [🏆 Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
+- [🏆 Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
 
 #### Volunteering
 - [🙋 Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
 - [🙋‍ Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
 
 #### Languages
-- [🇬🇧 English B2 certificate](/file/English_B2_certificate.pdf){:target="_blank"}
-- [🇬🇧 English IELTS partecipation certificate](/file/English_IELTS_certificate.pdf){:target="_blank"}
-- [🇩🇪 German A1a partecipation certificate](/file/German_A1_certificate.pdf){:target="_blank"}
-- [🇪🇸 Spanish A1 partecipation certificate](/file/Spanish_A1_certificate.pdf){:target="_blank"}
+- 🇬🇧 English IELTS 7.0 certificate (coming soon)
+- [🇩🇪 German A1a partecipation](/file/German_A1_certificate.pdf){:target="_blank"}
+- [🇪🇸 Spanish A1 partecipation](/file/Spanish_A1_certificate.pdf){:target="_blank"}
 
 #### Cisco
 - [📶 Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
