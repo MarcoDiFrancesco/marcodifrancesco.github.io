@@ -96,7 +96,7 @@ See [homepage](/){:style="color: black; text-decoration: underline;"}
 - [🙋‍ Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
 
 #### Languages
-- 🇬🇧 English IELTS 7.0 certificate (coming soon)
+- [🇬🇧 English IELTS 7.0 certificate](/file/English_IELTS_certificate.pdf){:target="_blank"}
 - [🇩🇪 German A1a partecipation](/file/German_A1_certificate.pdf){:target="_blank"}
 - [🇪🇸 Spanish A1 partecipation](/file/Spanish_A1_certificate.pdf){:target="_blank"}
 
