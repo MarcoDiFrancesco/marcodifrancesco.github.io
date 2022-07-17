@@ -20,8 +20,15 @@ layout: default
       </a>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
+          {%- if post.redirect_to -%}
+          <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);">
+          &nbsp;
+          {%- endif -%}
           {{ post.title | escape }}
         </a>
+        {%- if post.subtitle -%}
+        <p style="color:#5f5f5f;">{{ post.subtitle }}</p>
+        {%- endif -%}
       </h3>
       {%- if site.show_excerpts -%}
       {{ post.excerpt }}

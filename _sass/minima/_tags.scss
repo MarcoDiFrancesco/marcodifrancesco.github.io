@@ -4,8 +4,8 @@
     font-size: 12px;
 }
 
-$box-background: #c0f988;
-$box-border: #007000;
+$box-background: #fffbca;
+$box-border: #c14800;
 .project-box {
     @extend .box;
     color: $box-border;
@@ -13,8 +13,8 @@ $box-border: #007000;
     border: 1px solid $box-border;
 }
 
-$box-background: #88bbf9;
-$box-border: #220c78;
+$box-background: #e6fde5;
+$box-border: #2e322e;
 .post-box {
     @extend .box;
     color: $box-border;
