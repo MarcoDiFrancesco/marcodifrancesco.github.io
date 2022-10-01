@@ -7,11 +7,15 @@ redirect_from:
 ---
 
 ## Contacts
-**Linkedin** (preferred): [https://www.linkedin.com/in/marcodifran/](https://www.linkedin.com/in/marcodifran/){:target="_blank"}{:style="color: black"}
+**Linkedin** (preferred): [https://www.linkedin.com/in/marcodifran/](https://www.linkedin.com/in/marcodifran/){:target="_blank"}
 
-Email: info{at}marcodifrancesco.com
+**Email**: info{at}marcodifrancesco.com
 
 ## Experience
+See **Linkedin** (preferred): [https://www.linkedin.com/in/marcodifran/](https://www.linkedin.com/in/marcodifran/){:target="_blank"}
+
+<!-- 
+
 #### 💻 **Junior Data Scientist**
 **Fondazione Bruno Kessler - FBK**  
 *May 2020 – Now*  
@@ -42,11 +46,17 @@ Data Management of the INPS's database.
 #### 🙋‍ **Community Volunteer**
 **Solidarités Jeunesses**  
 *Jul 2016*  
-Created a sustainable working environment in the city of La Ferté-sous-Jouarre, France.
+Created a sustainable working environment in the city of La Ferté-sous-Jouarre, France. 
 
----
+-->
+
 
 ## Education
+See **Linkedin** (preferred): [https://www.linkedin.com/in/marcodifran/](https://www.linkedin.com/in/marcodifran/){:target="_blank"}
+
+
+<!-- 
+
 #### 🎓 **University of Trento**
 **Bachelor of Computer Science**  
 *2018 Sep - 2022 Mar*
@@ -71,10 +81,12 @@ Language courses:
 
 🏆 2x Year Classroom Ambassador  
 🏆 Olympiad in Informatics participant
----
+--- 
+
+-->
 
 ## Projects
-See [homepage](/){:style="color: black; text-decoration: underline;"}
+See [homepage](/)
 
 ---
 
