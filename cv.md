@@ -109,8 +109,8 @@ See [homepage](/)
 
 #### Languages
 - [🇬🇧 English IELTS 7.0 certificate](/file/English_IELTS_certificate.pdf){:target="_blank"}
-- [🇩🇪 German A1a partecipation](/file/German_A1_certificate.pdf){:target="_blank"}
-- [🇪🇸 Spanish A1 partecipation](/file/Spanish_A1_certificate.pdf){:target="_blank"}
+- [🇩🇪 German A1a participation](/file/German_A1_certificate.pdf){:target="_blank"}
+- [🇪🇸 Spanish A1 participation](/file/Spanish_A1_certificate.pdf){:target="_blank"}
 
 #### Cisco
 - [📶 Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
