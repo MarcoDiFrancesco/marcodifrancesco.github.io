@@ -103,7 +103,8 @@ See [homepage](/)
 - [🏆 Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
 - [🏆 Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
 
-#### Volunteering
+#### Educational trips
+- [🙋 Innovation Summer School - Budapest](/file/Summer_School_Budapest.pdf){:target="_blank"}
 - [🙋 Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
 - [🙋‍ Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
 
