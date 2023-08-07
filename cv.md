@@ -104,6 +104,7 @@ See [homepage](/)
 - [🏆 Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
 
 #### Educational trips
+- [🙋 Innovation Summer School - Ljubljana](/file/Summer_School_Ljubljana.pdf){:target="_blank"}
 - [🙋 Innovation Summer School - Budapest](/file/Summer_School_Budapest.pdf){:target="_blank"}
 - [🙋 Volunteering in France](/file/Lunaria_France_certificate.pdf){:target="_blank"}
 - [🙋‍ Volunteering in Germany](/file/Lunaria_Germany_certificate.pdf){:target="_blank"}
