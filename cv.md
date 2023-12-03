@@ -99,6 +99,7 @@ See [homepage](/)
 
 ## Certificates
 #### Projects
+- [🏆 Influencing Skills](/file/Influencing_Skills_certificate.pdf){:target="_blank"}
 - [🏆 AI Challenge](/file/AI_Challenge_Certificate.pdf){:target="_blank"}
 - [🏆 Samsung Innovation Camp](/file/Samsung_Innovation_Camp_certificate.pdf){:target="_blank"}
 - [🏆 Google Digital Training](/file/Google_Digital_Training_certificate.pdf){:target="_blank"}
