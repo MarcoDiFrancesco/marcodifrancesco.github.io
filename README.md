@@ -3,6 +3,12 @@
 
 The portfolio is constantly (hopefully) updated with all the projects I've made in the last years.
 
+## Install
+
+```bash
+bundle install
+```
+
 ## Execute
 
 ```bash
