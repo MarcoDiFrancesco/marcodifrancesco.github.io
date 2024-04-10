@@ -6,4 +6,4 @@ layout: home
 
 Hello 👋
 
-I'm a Data Science student at Aalto University expecting to graduate in Sep 2024. 3 years of exerience developing Machine Learning models in domains including Computer Vision and NLP. Experienced in model optimization techniques to finding the best solution according to the current requirements. Always courious in learning new Data Science technologies and tools.
+I'm a Data Science student at Aalto University expecting to graduate in Sep 2024. My journey in Data Science started 4 years ago, where I initlially worked on Computer Vision models for biomedicine, and later specialized in Online Learning algorithms. I'm always courious and very open to learn new Data Science technologies to broaden my experience in this field.
