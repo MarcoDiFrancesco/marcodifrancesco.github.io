@@ -14,17 +14,15 @@ Hello 👋
 
 I'm a Data Science student 🎓 at Aalto University expecting to graduate in Sep 2024. My journey in Data Science 📊 started 4 years ago, where I initlially worked on Computer Vision models for biomedicine 💉, and later specialized in Online Learning algorithms ⌚️. I'm always courious and very open to learn new Data Science technologies to broaden my experience in this field 🤓.
 
-Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmail.com) or [Linkedin](https://www.linkedin.com/in/marcodifran/){:target="_blank"} if you want to get in touch 🤝
+Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmail.com) or [LinkedIn](https://www.linkedin.com/in/marcodifran/){:target="_blank"} if you want to get in touch 🤝
 
 <br />
 
 ## Contacts
 
-👋 **Linkedin**: [https://www.linkedin.com/in/marcodifran/](https://www.linkedin.com/in/marcodifran/){:target="_blank"}
+👋 **LinkedIn**: [LinkedIn → MarcoDiFran](https://www.linkedin.com/in/marcodifran/){:target="_blank"}
 
 ❓ **Email**: [marcodifran@gmail.com](mailto:marcodifran@gmail.com)
-
-🔍 **GitHub**: [https://github.com/MarcoDiFrancesco](https://github.com/MarcoDiFrancesco){:target="_blank"}
 
 <br />
 
@@ -51,3 +49,20 @@ Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmai
 - [📶 Routing and Switching Introduction to Networks](/file/CCNA_Routing_and_Switching_Introduction_to_Networks_certificate.pdf){:target="_blank"}
 - [🐧 Linux essential](/file/Linux_essential_certificate.pdf){:target="_blank"}
 - [📲 Introduction to IoT](/file/Introduction_to_IoT_certificate.pdf){:target="_blank"}
+
+
+<br />
+
+## Profile Pictures
+
+<details>
+<summary>Variants</summary>
+<br />
+<img src="/assets/img/profile/profille-2023-plain.jpg" width="150px">
+<img src="/assets/img/profile/profile-2023-uni.png" width="150px">
+<img src="/assets/img/profile/profile-2023-personal.png" width="150px">
+<img src="/assets/img/profile/profile-2023-abb.png" width="150px">
+,</details>
+
+
+
