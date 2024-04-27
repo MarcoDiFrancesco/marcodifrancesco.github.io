@@ -12,8 +12,8 @@ layout: default
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
+      {%- include cover-photo.html -%}
       <a class="post-link" href="{{ post.url | relative_url }}" style="text-decoration: none;">
-        {%- include cover-photo.html -%}
         {%- include tags.html -%}
         &nbsp<!-- Space  -->
         {%- assign date_format = site.minima.date_format -%}

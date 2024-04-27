@@ -5,5 +5,5 @@ permalink: /WebUploader/
 redirect_from:
   - /upload/
 redirect_to: https://github.com/MarcoDiFrancesco/WebUploader
-tags: project
+tags: PHP
 ---

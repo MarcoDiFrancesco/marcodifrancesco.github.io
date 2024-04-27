@@ -2,7 +2,7 @@
 title: "Nowcasting Thesis"
 subtitle: "Comparative Analysis of Prediction Models for Short-Term Forecasting"
 permalink: /nowcasting-thesis/
-tags: post
+tags: Python PyTorch
 ---
 
 

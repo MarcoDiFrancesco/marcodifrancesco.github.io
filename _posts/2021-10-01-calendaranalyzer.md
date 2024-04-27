@@ -1,7 +1,8 @@
 ---
 title: "Calendar Analyzer"
-subtitle: "My life's dashboard"
+subtitle: "Interactive platform for analyzing and visualizing Google Calendar events"
 permalink: /CalendarAnalyzer/
-tags: project
+tags: Python Streamlit
 redirect_to: https://github.com/MarcoDiFrancesco/CalendarAnalyzer
+cover-photo: assets/img/CalendarAnalyzer/calendar-to-streamlit.png
 ---

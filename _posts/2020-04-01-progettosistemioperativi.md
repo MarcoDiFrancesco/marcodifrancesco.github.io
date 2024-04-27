@@ -1,7 +1,7 @@
 ---
-title: "Progetto Sistemi Operativi"
-subtitle: "Analyze files in Linux enviroments"
+title: "Disk usage analyzer"
+subtitle: "Efficient analyzer of file sizes in Linux enviroments written in C"
 permalink: /ProgettoSistemiOperativi/
-tags: project
+tags: C
 redirect_to: https://github.com/MarcoDiFrancesco/ProgettoSistemiOperativi
 ---
