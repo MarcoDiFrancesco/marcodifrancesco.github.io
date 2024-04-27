@@ -5,7 +5,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 email: "marcodifran@gmail.com"
 logo: "/assets/icon/logo.png"
 lang: "en"
-show_excerpts: false # set to true to show excerpts on the homepage
 github_username: MarcoDiFrancesco
 repository: MarcoDiFrancesco/marcodifrancesco.github.io # Github repository
 google_analytics: UA-115310552-1

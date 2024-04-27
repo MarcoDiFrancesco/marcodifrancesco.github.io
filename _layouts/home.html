@@ -2,53 +2,98 @@
 layout: default
 ---
 
+<style>
+  /* Large screens */
+  @media (min-width: 800px) {
+    .container-photo-description {
+      display: -webkit-box;
+    }
+
+    /* Images should be 3:2. Medium and WSJ use this ratio. */
+
+    .container-photo {
+      padding-right: 20px;
+      width: 35%;
+      /* Center image, doesn't work for small screens */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container-description {
+      width: 65%;
+    }
+  }
+
+  /* Small screens */
+  @media (max-width: 799px) {
+    .container-photo-description {
+      display: block;
+    }
+
+    .container-photo {
+      max-width: 400px;
+    }
+  }
+</style>
+
 <div class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-  {{ content }}
-  {%- if site.posts.size > 0 -%}
+  {%- endif -%} {{ content }} {%- if site.posts.size > 0 -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "Projects" }}</h2>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
       <div class="container-photo-description">
+        <!-- Image block -->
         <div class="container-photo">
-          {%- include cover-photo.html -%}
+          <!-- Style in _tags.scss -->
+          {%- if post.cover-photo.size > 0 -%}
+          <!-- Light gray border -->
+          <a href="{{ post.url | relative_url }}" target="_blank">
+            <img
+              src="{{ post.cover-photo }}"
+              alt="cover photo"
+              class="photo"
+              style="border: 1px solid rgb(245, 245, 245)"
+            />
+          </a>
+          {%- endif -%}
         </div>
-        <div class="container-description"> <!-- Container for text, with some padding between text and image -->
-          <a class="post-link" href="{{ post.url | relative_url }}" style="text-decoration: none;">
-            {%- include tags.html -%}
-            &nbsp; <!-- Space -->
+
+        <!-- Description block -->
+        <div class="container-description">
+          <!-- Container for text, with some padding between text and image -->
+          <a
+            class="post-link"
+            href="{{ post.url | relative_url }}"
+            style="text-decoration: none"
+          >
+            {%- include tags.html -%} &nbsp;
+            <!-- Space -->
             {%- assign date_format = site.minima.date_format -%}
             <span class="post-meta">{{ post.date | date: date_format }} </span>
           </a>
           <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
+            <a class="post-link" href="{{ post.url | relative_url }}" target="_blank">
               {%- if post.redirect_to -%}
-              <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);">
-              &nbsp;
-              {%- endif -%}
-              {{ post.title | escape }}
+              <img
+                src="/assets/redirect-icon.png"
+                width="15px"
+                style="filter: contrast(0)"
+              />
+              &nbsp; {%- endif -%} {{ post.title | escape }}
             </a>
             {%- if post.subtitle -%}
-            <p style="color:#5f5f5f;">{{ post.subtitle }}</p>
+            <p style="color: #5f5f5f">{{ post.subtitle }}</p>
             {%- endif -%}
           </h3>
-          {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-          {%- endif -%}
         </div>
       </div>
     </li>
-        {%- endfor -%}
+    {%- endfor -%}
   </ul>
-  <!--
-    <p class="feed-subscribe">
-      <a href="{{ 'feed.xml' | relative_url }}">
-        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
-      </a>
-    </p>
-    -->
   {%- endif -%}
 </div>
