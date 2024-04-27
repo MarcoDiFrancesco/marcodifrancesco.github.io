@@ -2,30 +2,45 @@
 {%- if post.cover-photo.size > 0 -%}
 
 <style>
-  .article {
-    max-width: 100%;
-    margin-bottom: 20px; /* Space between articles */
+  /* Large screens */
+  @media (min-width: 800px) {
+    .container-photo-description {
+      display: -webkit-box;
+    }
+
+    /* Images should be 3:2. Medium and WSJ use this ratio. */
+
+    .container-photo {
+      padding-right: 20px;
+      width: 30%;
+      /* Center image, doesn't work for small screens */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container-description {
+      width: 70%;
+    }
   }
 
-  .cover-photo {
-    width: 100%;
-    height: 180px; /* Fixed height for larger screens */
-    object-fit: cover; /* This will crop the image to fit the box, maintaining aspect ratio */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  /* Small screens */
+  @media (max-width: 799px) {
+    .container-photo-description {
+      display: block;
+    }
 
-  @media (max-width: 600px) {
-    .cover-photo {
-      height: 90px; /* Adjusted height for smaller screens like phones */
+    .container-photo {
+      max-width: 400px;
     }
   }
 </style>
 
+<!-- Light gray border -->
 <img
   src="{{ post.cover-photo }}"
-  alt="Nowcasting Thesis cover photo"
-  class="cover-photo"
+  alt="cover photo"
+  class="photo"
+  style="border: 1px solid rgb(245, 245, 245)"
 />
 {%- endif -%}

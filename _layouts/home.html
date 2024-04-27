@@ -12,30 +12,36 @@ layout: default
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
-      {%- include cover-photo.html -%}
-      <a class="post-link" href="{{ post.url | relative_url }}" style="text-decoration: none;">
-        {%- include tags.html -%}
-        &nbsp<!-- Space  -->
-        {%- assign date_format = site.minima.date_format -%}
-        <span class="post-meta">{{ post.date | date: date_format }} </span>
-      </a>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {%- if post.redirect_to -%}
-          <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);">
-          &nbsp;
+      <div class="container-photo-description">
+        <div class="container-photo">
+          {%- include cover-photo.html -%}
+        </div>
+        <div class="container-description"> <!-- Container for text, with some padding between text and image -->
+          <a class="post-link" href="{{ post.url | relative_url }}" style="text-decoration: none;">
+            {%- include tags.html -%}
+            &nbsp; <!-- Space -->
+            {%- assign date_format = site.minima.date_format -%}
+            <span class="post-meta">{{ post.date | date: date_format }} </span>
+          </a>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {%- if post.redirect_to -%}
+              <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);">
+              &nbsp;
+              {%- endif -%}
+              {{ post.title | escape }}
+            </a>
+            {%- if post.subtitle -%}
+            <p style="color:#5f5f5f;">{{ post.subtitle }}</p>
+            {%- endif -%}
+          </h3>
+          {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
           {%- endif -%}
-          {{ post.title | escape }}
-        </a>
-        {%- if post.subtitle -%}
-        <p style="color:#5f5f5f;">{{ post.subtitle }}</p>
-        {%- endif -%}
-      </h3>
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
+        </div>
+      </div>
     </li>
-    {%- endfor -%}
+        {%- endfor -%}
   </ul>
   <!--
     <p class="feed-subscribe">
