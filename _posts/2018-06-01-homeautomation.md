@@ -5,5 +5,5 @@ permalink: /homeautomation/
 redirect_from:
   - /tesina/
 redirect_to: https://github.com/MarcoDiFrancesco/HomeAutomation
-tags: Linux Arduino SQL
+tags: Computer-Science Linux Arduino SQL
 ---

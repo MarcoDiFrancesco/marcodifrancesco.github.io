@@ -5,5 +5,5 @@ permalink: /MPMBot/
 redirect_from:
 - /DiscordBotYoutube/
 redirect_to: https://github.com/MarcoDiFrancesco/DiscordBotYoutube
-tags: NodeJS
+tags: Computer-Science NodeJS
 ---
