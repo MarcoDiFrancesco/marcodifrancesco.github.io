@@ -2,7 +2,7 @@
 title: "Medical Imaging"
 subtitle: "FBK Research Project on Bioimaging"
 permalink: /MedicalImaging/
-tags: Machine-Learning PyTorch
+tags: Machine-Learning Computer-Vision
 redirect_to: Under NDA
 cover-photo: assets/img/MedicalImaging/MedicalImaging-cover.webp
 ---

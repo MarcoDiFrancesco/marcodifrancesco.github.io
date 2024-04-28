@@ -3,7 +3,7 @@ title: "Nowcasting Thesis"
 subtitle: "Comparative Analysis of Prediction Models for Short-Term Forecasting"
 permalink: /nowcasting-thesis/
 cover-photo: assets/img/nowcasting-thesis/nowcasting-cover.png
-tags: Machine-Learning PyTorch
+tags: Machine-Learning Computer-Vision
 ---
 
 • Trained Image-based time series forecasting system to predict extreme precipitation to alert Italian civil protection together with a researcher.  

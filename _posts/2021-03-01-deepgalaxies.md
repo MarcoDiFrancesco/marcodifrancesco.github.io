@@ -2,7 +2,7 @@
 title: "DeepGalaxies"
 subtitle: "ML Course Project on Galaxy Classification"
 permalink: /DeepGalaxies/
-tags: Machine-Learning Image-Recognition
+tags: Machine-Learning Computer-Vision
 redirect_to: https://github.com/marcodifrancesco/DeepGalaxies
 cover-photo: assets/img/DeepGalaxies/DeepGalaxies-cover.webp
 ---
