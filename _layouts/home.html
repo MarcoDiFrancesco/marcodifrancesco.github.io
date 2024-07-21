@@ -84,15 +84,17 @@ layout: default
         <!-- Description block -->
         <div class="container-description">
           <!-- Container for text, with some padding between text and image -->
-          <a
-            class="post-link"
-            href="{{ post.url | relative_url }}"
-            style="text-decoration: none"
-          >
-            {%- include tags.html -%} &nbsp;
-            <!-- Space -->
-            {%- assign date_format = site.minima.date_format -%}
-            <span class="post-meta">{{ post.date | date: date_format }} </span>
+          {%- include tags.html -%} &nbsp;
+          <!-- Space -->
+          {%- assign date_format = site.minima.date_format -%}
+          <span class="post-meta">{{ post.date | date: date_format }} </span>
+          &nbsp;
+          <a href="/#{{ post.url | slugify }}">
+            <img
+              src="/assets/link-icon.png"
+              width="15px"
+              style="filter: contrast(0)"
+            />
           </a>
           <h3>
             <a
