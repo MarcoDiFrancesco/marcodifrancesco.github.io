@@ -8,7 +8,7 @@ The portfolio is constantly (hopefully) updated with all the projects I've made 
 **Ruby version: 3.2**
 
 ```bash
-# 'sudo' only used for Bump ubuntu since I don't want to fix all the caching related permission problems
+# 'sudo' only used for Bump ubuntu because I don't want to fix all the caching related permission problems
 sudo bundle install
 ```
 
