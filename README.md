@@ -15,5 +15,5 @@ sudo bundle install
 ## Execute
 
 ```bash
-sudo bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload
 ```
