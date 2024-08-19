@@ -5,15 +5,15 @@ The portfolio is constantly (hopefully) updated with all the projects I've made 
 
 ## Install
 
+**Ruby version: 3.2**
+
 ```bash
-bundle install
+# 'sudo' only used for Bump ubuntu since I don't want to fix all the caching related permission problems
+sudo bundle install
 ```
 
 ## Execute
 
 ```bash
-bundle exec jekyll serve --livereload
+sudo bundle exec jekyll serve --livereload
 ```
-
-## Build
-As of Dec 2021 github pages uses jekyll 3.9 which uses ruby 2.7, so this github package is not used for local development, instead it's using the package.
