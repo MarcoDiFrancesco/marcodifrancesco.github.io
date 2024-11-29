@@ -13,7 +13,7 @@ cover-photo: assets/img/LightRiver/LightRiver-cover.webp
 
 ### Thesis — Paper
 
-<a class="post-link" href="/assets/img/light-river/thesis-twente.pdf" target="_blank">
+<a class="post-link" href="/assets/img/light-river/master-thesis-paper.pdf" target="_blank">
     <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Download PDF
 </a>
 <a class="post-link" href="https://essay.utwente.nl/102624/" target="_blank">
@@ -26,7 +26,7 @@ cover-photo: assets/img/LightRiver/LightRiver-cover.webp
 
 ### Slides
 
-<a class="post-link" href="/assets/img/light-river/thesis-twente-presentation.pdf" target="_blank">
+<a class="post-link" href="/assets/img/light-river/master-thesis-presentation.pdf" target="_blank">
     <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Slides (Presentation)
 </a>
 
