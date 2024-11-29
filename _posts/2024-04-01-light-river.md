@@ -1,5 +1,5 @@
 ---
-title: "LightRiver"
+title: "LightRiver — Master Thesis"
 subtitle: "Online Machine Learning in Rust"
 permalink: /LightRiver/
 tags: Machine-Learning Rust
@@ -10,12 +10,32 @@ cover-photo: assets/img/LightRiver/LightRiver-cover.webp
 - Optimized memory usage to a minimal 20MB, facilitating deployment on robots with stringent memory limits and resulting in a 55% enhancement in positioning accuracy.
 - Specialized implementation of Mondrian Forests, streamlining the model for real-time learning in performance-sensitive applications.
 
-### Repository → [https://github.com/online-ml/light-river](https://github.com/online-ml/light-river)
+
+### Thesis — Paper
 
 <a class="post-link" href="/assets/img/light-river/thesis-twente.pdf" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Thesis (PDF)
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Download PDF
+</a>
+<a class="post-link" href="https://essay.utwente.nl/102624/" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Twente Publication
+</a>
+<a class="post-link" href="https://aaltodoc.aalto.fi/items/941f3205-3883-42b6-92f3-0d39840b654e" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Aalto Publication
 </a>
 
+
+### Slides
+
 <a class="post-link" href="/assets/img/light-river/thesis-twente-presentation.pdf" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Presentation (Slides)
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Slides (Presentation)
+</a>
+
+
+### GitHub
+
+<a class="post-link" href="https://github.com/online-ml/light-river" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> LightRiver
+</a>
+<a class="post-link" href="https://github.com/MarcoDiFrancesco/light-river-cache" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> LightRiver-Cache
 </a>

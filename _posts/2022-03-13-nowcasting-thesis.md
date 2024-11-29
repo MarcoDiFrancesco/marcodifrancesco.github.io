@@ -1,5 +1,5 @@
 ---
-title: "Nowcasting Thesis"
+title: "Nowcasting — Bachelor Thesis"
 subtitle: "Comparative Analysis of Prediction Models for Short-Term Forecasting"
 permalink: /nowcasting-thesis/
 cover-photo: assets/img/nowcasting-thesis/nowcasting-cover.png
