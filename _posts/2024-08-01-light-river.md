@@ -13,29 +13,31 @@ cover-photo: assets/img/LightRiver/LightRiver-cover.webp
 
 ### Thesis — Paper
 
-<a class="post-link" href="/assets/img/light-river/master-thesis-paper.pdf" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Download PDF
-</a>
 <a class="post-link" href="https://essay.utwente.nl/102624/" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Twente Publication
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Twente Publication
 </a>
-<a class="post-link" href="https://aaltodoc.aalto.fi/items/941f3205-3883-42b6-92f3-0d39840b654e" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Aalto Publication
+<a class="" href="https://aaltodoc.aalto.fi/items/941f3205-3883-42b6-92f3-0d39840b654e" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Aalto Publication (mirror)
+</a>
+<br />
+<a class="" href="/assets/img/light-river/master-thesis-paper.pdf" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Download PDF (mirror)
 </a>
 
 
-### Slides
+### Presentation
 
 <a class="post-link" href="/assets/img/light-river/master-thesis-presentation.pdf" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> Slides (Presentation)
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 🎤 Slides
 </a>
 
 
 ### GitHub
 
-<a class="post-link" href="https://github.com/online-ml/light-river" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> LightRiver
-</a>
 <a class="post-link" href="https://github.com/MarcoDiFrancesco/light-river-cache" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> LightRiver-Cache
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 🧑‍💻️ LightRiver-Cache
+</a>
+
+<a class="post-link" href="https://github.com/online-ml/light-river" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 🧑‍💻️ LightRiver
 </a>
