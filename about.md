@@ -56,12 +56,11 @@ Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmai
 
 <details>
 <summary>Variants</summary>
-<br />
-<img src="/assets/img/profile/profille-2023-plain.jpg" width="150px">
+<h2 style="margin-top: 20px">2025</h2>
+<img src="/assets/img/profile/profile-2025-plain.jpg" width="150px">
+<h2 style="margin-top: 20px">2023</h2>
+<img src="/assets/img/profile/profile-2023-plain.jpg" width="150px">
 <img src="/assets/img/profile/profile-2023-uni.png" width="150px">
 <img src="/assets/img/profile/profile-2023-personal.png" width="150px">
 <img src="/assets/img/profile/profile-2023-abb.png" width="150px">
-,</details>
-
-
-
+</details>
