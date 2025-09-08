@@ -57,6 +57,7 @@ Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmai
 <details>
 <summary>Variants</summary>
 <h2 style="margin-top: 20px">2025</h2>
+<img src="/assets/img/profile/profile-2025-polished.jpg" width="150px">
 <img src="/assets/img/profile/profile-2025-plain.jpg" width="150px">
 <h2 style="margin-top: 20px">2023</h2>
 <img src="/assets/img/profile/profile-2023-plain.jpg" width="150px">
