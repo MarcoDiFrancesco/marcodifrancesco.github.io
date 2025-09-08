@@ -13,11 +13,11 @@ cover-photo: assets/img/LightRiver/LightRiver-cover.webp
 
 ### Thesis — Paper
 
-<a class="post-link" href="https://essay.utwente.nl/102624/" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Twente Publication
+<a class="post-link" href="https://aaltodoc.aalto.fi/items/941f3205-3883-42b6-92f3-0d39840b654e" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Aalto Publication
 </a>
-<a class="" href="https://aaltodoc.aalto.fi/items/941f3205-3883-42b6-92f3-0d39840b654e" target="_blank">
-    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Aalto Publication (mirror)
+<a class="" href=" https://purl.utwente.nl/essays/102624" target="_blank">
+    <img src="/assets/redirect-icon.png" width="15px" style="filter: contrast(0);"> 📜 Twente Publication (mirror)
 </a>
 <br />
 <a class="" href="/assets/img/light-river/master-thesis-paper.pdf" target="_blank">
