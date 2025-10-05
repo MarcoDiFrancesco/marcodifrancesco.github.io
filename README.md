@@ -15,5 +15,7 @@ sudo bundle install
 ## Execute
 
 ```bash
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --host 0.0.0.0
 ```
+
+Note: `host` is set to access it through the network with local IP
