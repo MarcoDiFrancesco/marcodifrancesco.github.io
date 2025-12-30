@@ -6,4 +6,4 @@ layout: home
 
 Hello 👋
 
-I'm a Data Science student 🎓 at Aalto University expecting to graduate in Sep 2024. My journey in Data Science 📊 started 4 years ago, where I initlially worked on Computer Vision models for biomedicine 💉, and later specialized in Online Learning algorithms ⌚️. I'm always courious and very open to learn new Data Science technologies to broaden my experience in this field 🤓.
+I am a Data Scientist 📊 building Predictive AI Solutions in banking, with 2 years FTE experience creating end-to-end ML solutions. My journey started in computer vision for biomedical and weather applications 💉, then moved to Banking due to my passion for Finance ⌚️. Driven by this interest in tech and finance, I keep studying new technologies. I am a bit of a nerd 🤓.
