@@ -201,6 +201,9 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
 }
 
 .post-list {
