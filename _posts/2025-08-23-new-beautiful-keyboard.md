@@ -3,6 +3,7 @@ title: "New Beautiful Keyboard"
 permalink: /2025-08-23-new-beautiful-keyboard/
 tags: post
 cover-photo: assets/img/2025-08-23-new-beautiful-keyboard/cover.webp
+hidden: false
 ---
 
 In Aug 2025, after 4 months in Corner I have a sudden will to have a beautiful keyboard in the office. I want it so that if someone approaches me they say: “wow, that’s really a beautiful keyboard”.

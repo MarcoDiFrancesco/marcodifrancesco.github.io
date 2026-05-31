@@ -5,4 +5,5 @@ permalink: /WebValley/
 redirect_to: https://webvalley.fbk.eu/
 tags: Website Django
 cover-photo: assets/img/WebValley/webvalley.webp
+hidden: false
 ---

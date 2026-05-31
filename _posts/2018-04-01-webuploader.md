@@ -6,4 +6,5 @@ redirect_from:
   - /upload/
 redirect_to: https://github.com/MarcoDiFrancesco/WebUploader
 tags: Website PHP
+hidden: false
 ---

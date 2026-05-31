@@ -5,6 +5,7 @@ permalink: /DeepGalaxies/
 tags: Machine-Learning Computer-Vision
 redirect_to: https://github.com/marcodifrancesco/DeepGalaxies
 cover-photo: assets/img/DeepGalaxies/DeepGalaxies-cover.webp
+hidden: false
 ---
 
 - Designed and implemented an image recognition system for galaxies classification.

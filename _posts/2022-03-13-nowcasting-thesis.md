@@ -4,6 +4,7 @@ subtitle: "Comparative Analysis of Prediction Models for Short-Term Forecasting"
 permalink: /nowcasting-thesis/
 cover-photo: assets/img/nowcasting-thesis/nowcasting-cover.png
 tags: Machine-Learning Computer-Vision
+hidden: false
 ---
 
 • Trained Image-based time series forecasting system to predict extreme precipitation to alert Italian civil protection together with a researcher.  

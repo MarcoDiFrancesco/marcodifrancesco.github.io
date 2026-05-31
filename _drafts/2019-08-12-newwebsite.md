@@ -1,6 +1,7 @@
 ---
 title: "How to make the new website"
 permalink: /newwebsite/
+hidden: false
 ---
 ### Top bar
 

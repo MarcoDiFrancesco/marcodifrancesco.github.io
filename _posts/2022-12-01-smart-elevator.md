@@ -5,6 +5,7 @@ permalink: /SmartElevator/
 tags: Data-Analysis Python
 redirect_to: https://github.com/MarcoDiFrancesco/SmartElevator
 cover-photo: assets/img/SmartElevator/SmartElevator-cover.webp
+hidden: false
 ---
 
 - Built Fault prevention system for elevators using Python and improving apon the Scikit‐learn simple methods.

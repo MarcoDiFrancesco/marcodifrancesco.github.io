@@ -3,6 +3,7 @@ title: "Non Zürich?"
 permalink: /2025-10-05-non-zurich/
 tags: post
 cover-photo: assets/img/2025-10-05-non-zurich/cover.jpg
+hidden: true
 ---
 
 Let’s explore the question: when applying to new positions, should I just apply to Zurich instead of all of Switzerland? It has been ~3 months since I started applying. This reflection comes because I got an interview from Basel a few days ago, and one of the first things I thought was “it’s way too close to the German border”. Here we go again with this mindset of diversification to slowly grind to the top.

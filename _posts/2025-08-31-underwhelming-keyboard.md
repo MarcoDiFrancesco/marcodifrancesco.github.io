@@ -3,6 +3,7 @@ title: "Underwhelming Keyboard"
 permalink: /2025-08-31-underwhelming-keyboard/
 tags: post
 cover-photo: assets/img/2025-08-31-underwhelming-keyboard/cover.jpg
+hidden: false
 ---
 
 Following the previous post 8 days ago: [2025-08-23-new-beautiful-keyboard](/2025-08-23-new-beautiful-keyboard)

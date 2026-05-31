@@ -5,6 +5,7 @@ permalink: /CourseMatch/
 tags: Machine-Learning NLP
 redirect_to: https://course-match-ui.pages.dev/
 cover-photo: assets/img/CourseMatch/CourseMatch-cover.webp
+hidden: false
 ---
 
 - Developed a Course Recommender System in a team of 3 students using a Transformer based Large Language Model (LLM).

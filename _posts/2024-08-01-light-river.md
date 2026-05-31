@@ -4,6 +4,7 @@ subtitle: "Online Machine Learning in Rust"
 permalink: /LightRiver/
 tags: Machine-Learning Rust
 cover-photo: assets/img/LightRiver/LightRiver-cover.webp
+hidden: false
 ---
 
 - Ported an Online Machine Learning model from Python to Rust, achieving a 97% reduction in execution time and attaining a processing capability of 10,000 records per second for IoT devices.

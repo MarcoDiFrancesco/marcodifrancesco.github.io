@@ -129,7 +129,7 @@ layout: default
     {% endif %}
 
     <!-- Post -->
-    <li>
+    <li{% if post.hidden %} style="display: none;"{% endif %}>
       <div class="container-photo-description" id="{{ post.url | slugify }}">
         <!-- Image block -->
         <div class="container-photo">

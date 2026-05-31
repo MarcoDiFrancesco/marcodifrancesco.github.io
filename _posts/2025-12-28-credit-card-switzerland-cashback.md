@@ -3,6 +3,7 @@ title: "Credit Card Switzerland - Cashback"
 permalink: /2025-12-28-credit-card-switzerland-cashback/
 tags: post
 cover-photo: assets/img/2025-12-28-credit-card-switzerland-cashback/cover.jpg
+hidden: false
 ---
 
 Yeeee another let's-optimize-the-small-cents rabbit hole. Credit card now.

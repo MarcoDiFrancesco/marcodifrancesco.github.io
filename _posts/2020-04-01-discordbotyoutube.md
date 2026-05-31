@@ -6,4 +6,5 @@ redirect_from:
 - /DiscordBotYoutube/
 redirect_to: https://github.com/MarcoDiFrancesco/DiscordBotYoutube
 tags: Computer-Science NodeJS
+hidden: false
 ---

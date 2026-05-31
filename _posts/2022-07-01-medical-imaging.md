@@ -4,6 +4,7 @@ subtitle: "FBK Research Project on Bioimaging"
 permalink: /MedicalImaging/
 tags: Machine-Learning Computer-Vision
 cover-photo: assets/img/MedicalImaging/MedicalImaging-cover.webp
+hidden: false
 ---
 
 - Engaged in a medical image segmentation project utilizing advanced bioimaging techniques.

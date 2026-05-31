@@ -6,4 +6,5 @@ redirect_from:
   - /tesina/
 redirect_to: https://github.com/MarcoDiFrancesco/HomeAutomation
 tags: Computer-Science Linux Arduino SQL
+hidden: false
 ---

@@ -3,6 +3,7 @@ title: "Gold Step Back"
 permalink: /2025-08-31-gold-step-back/
 tags: post
 cover-photo: assets/img/2025-08-31-gold-step-back/cover.jpg
+hidden: false
 ---
 
 **Gold step back**: In may I got allured by gold returns in period 2000-2025 which have shown very similar returns and seemingly opposite trends. The thought of hedging against risk-adjusted returns was so fascinating that I allocated 12% of my 2025 end-of-year portfolio allocation.
