@@ -11,7 +11,7 @@ redirect_from:
 
 Hello 👋
 
-I am a Data Scientist 📊 building Predictive AI Solutions in banking, with 2 years FTE experience creating end-to-end ML solutions. My journey started in computer vision for biomedical and weather applications 💉, then moved to Banking due to my passion for Finance ⌚️. Driven by this interest in tech and finance, I keep studying new technologies. I am a bit of a nerd 🤓.
+I am a Data Scientist 📊 building Predictive AI Solutions in banking, with 3 years FTE experience creating end-to-end ML solutions. My journey started in computer vision for biomedical and weather applications 💉, then moved to Banking given my passion for Finance ⌚️. Driven by this interest in tech and finance, I keep studying new technologies. I am a bit of a nerd 🤓.
 
 Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmail.com) or [LinkedIn](https://www.linkedin.com/in/marcodifran/){:target="_blank"} if you want to get in touch 🤝
 
