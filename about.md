@@ -40,7 +40,8 @@ Feel free to send me an email at [marcodifran@gmail.com](mailto:marcodifran@gmai
 
 #### Languages
 - [🇬🇧 English IELTS 7.0 certificate](/file/English_IELTS_certificate.pdf){:target="_blank"}
-- [🇩🇪 German A1a participation](/file/German_A1_certificate.pdf){:target="_blank"}
+- [🇩🇪 German A1 participation (2021)](/file/German_A1_certificate.pdf){:target="_blank"}
+- [🇩🇪 German A1.1 participation (2026)](/file/German_A1_1_certificate.pdf){:target="_blank"}
 - [🇪🇸 Spanish A1 participation](/file/Spanish_A1_certificate.pdf){:target="_blank"}
 - [🇪🇸 Spanish A2 participation](/file/Spanish_A2_certificate.pdf){:target="_blank"}
 

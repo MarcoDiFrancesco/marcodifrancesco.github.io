@@ -2,7 +2,7 @@
 title: "Retrospective - Future Work"
 permalink: /2026-08-03-retrospective-future-work/
 tags: post
-cover-photo: tbd
+cover-photo: todo-photo
 hidden: true
 ---
 
