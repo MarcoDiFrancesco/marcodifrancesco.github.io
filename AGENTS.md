@@ -43,6 +43,7 @@ Jekyll portfolio & homelab site running on Ruby 3.2, customized with Minima.
     ```
 - **Global Typography**: Use the shared system sans-serif stack across the homepage, posts, and standalone pages. Content surfaces use a relaxed `1.05rem` size and `1.75` line height, with consistent muted heading colors and spacing.
 - **Homepage Width**: Keep the homepage dashboard wider on desktop (`1100px`) while leaving article and standalone page layouts at the narrower reading width.
+- **Service Card Typography**: Keep service names at `1rem` and descriptions at `0.875rem` so cards align with the site's shared content scale.
 
 ## Context Maintenance & Persistent Memory
 
