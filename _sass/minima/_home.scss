@@ -1,3 +1,9 @@
+.page-home > .wrapper {
+  @media screen and (min-width: 800px) {
+    max-width: 1100px;
+  }
+}
+
 .home-intro {
   max-width: 680px;
   margin-bottom: 42px;
@@ -7,12 +13,6 @@
 
   p {
     margin-bottom: 0;
-  }
-
-  @media screen and (min-width: 800px) {
-    .page-home > .wrapper {
-      max-width: 1100px;
-    }
   }
 
   .page-heading {
@@ -62,6 +62,10 @@
   color: $grey-color-dark;
   font-size: 0.95rem;
   margin-top: -8px;
+}
+
+.post-list > li {
+  padding-bottom: 4px;
 }
 
 .post-hidden {
