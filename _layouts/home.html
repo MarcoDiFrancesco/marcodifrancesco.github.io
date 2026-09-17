@@ -2,41 +2,6 @@
 layout: default
 ---
 
-<style>
-  /* Large screens */
-  @media (min-width: 800px) {
-    .container-photo-description {
-      display: -webkit-box;
-    }
-
-    /* Images should be 3:2. Medium and WSJ use this ratio. */
-
-    .container-photo {
-      padding-right: 20px;
-      width: 35%;
-      /* Center image, doesn't work for small screens */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .container-description {
-      width: 65%;
-    }
-  }
-
-  /* Small screens */
-  @media (max-width: 799px) {
-    .container-photo-description {
-      display: block;
-    }
-
-    .container-photo {
-      max-width: 400px;
-    }
-  }
-</style>
-
 <!-- Variables to print current year -->
 {% assign current_year = nil %}
 {% assign year_changed = false %}
@@ -46,7 +11,9 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} 
   
-  {{ content }}
+  <div class="home-intro">
+    {{ content }}
+  </div>
 
   <div class="services-section">
     <h2 class="post-list-heading">🐳 My Stack</h2>
@@ -129,7 +96,7 @@ layout: default
     {% endif %}
 
     <!-- Post -->
-    <li{% if post.hidden %} style="display: none;"{% endif %}>
+    <li{% if post.hidden %} class="post-hidden"{% endif %}>
       <div class="container-photo-description" id="{{ post.url | slugify }}">
         <!-- Image block -->
         <div class="container-photo">
@@ -141,7 +108,6 @@ layout: default
               src="{{ post.cover-photo }}"
               alt="cover photo"
               class="photo"
-              style="border: 1px solid rgb(245, 245, 245)"
             />
           </a>
           {%- endif -%}
@@ -150,16 +116,16 @@ layout: default
         <!-- Description block -->
         <div class="container-description">
           <!-- Container for text, with some padding between text and image -->
-          {%- include tags.html -%} &nbsp;
+          {%- include tags.html -%}
           <!-- Space -->
           {%- assign date_format = site.minima.date_format -%}
           <span class="post-meta">{{ post.date | date: date_format }} </span>
           &nbsp;
-          <a href="/#{{ post.url | slugify }}">
+          <a class="post-anchor" href="/#{{ post.url | slugify }}" aria-label="Link to {{ post.title | escape }}">
             <img
               src="/assets/link-icon.png"
-              width="15px"
-              style="filter: contrast(0)"
+              width="15"
+              alt=""
             />
           </a>
           <h3>
@@ -171,13 +137,13 @@ layout: default
               {%- if post.redirect_to -%}
               <img
                 src="/assets/redirect-icon.png"
-                width="15px"
-                style="filter: contrast(0)"
+                width="15"
+                alt=""
               />
-              &nbsp; {%- endif -%} {{ post.title | escape }}
+              {%- endif -%} {{ post.title | escape }}
             </a>
             {%- if post.subtitle -%}
-            <p style="color: #5f5f5f">{{ post.subtitle }}</p>
+            <p class="post-subtitle">{{ post.subtitle }}</p>
             {%- endif -%}
           </h3>
           {{ post.excerpt }}

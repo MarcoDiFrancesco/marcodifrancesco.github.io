@@ -41,6 +41,7 @@ Jekyll portfolio & homelab site running on Ruby 3.2, customized with Minima.
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     border-color: #2a7ae2;
     ```
+- **Global Typography**: Use the shared system sans-serif stack across the homepage, posts, and standalone pages. Content surfaces use a relaxed `1.05rem` size and `1.75` line height, with consistent muted heading colors and spacing.
 
 ## Context Maintenance & Persistent Memory
 
