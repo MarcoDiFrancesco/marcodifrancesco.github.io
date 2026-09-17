@@ -3,6 +3,10 @@
   margin-bottom: 52px;
 }
 
+.services-section .post-list-heading {
+  margin-bottom: 20px;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -17,6 +21,7 @@
 .service-card {
   display: flex;
   align-items: center;
+  min-height: 66px;
   padding: 10px;
   border: 1px solid #e1e1e1;
   border-radius: 8px;
@@ -35,6 +40,12 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     border-color: #2a7ae2;
     text-decoration: none !important;
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba(42, 122, 226, 0.35);
+    outline-offset: 3px;
+    border-color: #2a7ae2;
   }
 }
 
@@ -61,4 +72,14 @@
   font-size: 0.95rem;
   color: #666;
   margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card {
+    transition: none;
+  }
+
+  .service-card:hover {
+    transform: none;
+  }
 }
